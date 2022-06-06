@@ -1,0 +1,10 @@
+package com.xworkz.core_java.inheritance.multilevel_inheritance.car;
+
+public class CarRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

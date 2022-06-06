@@ -1,0 +1,9 @@
+package com.xworkz.core_java.inheritance.multilevel_inheritance.bird;
+
+public class Peocock {
+	void dance() {
+		System.out.println("name+peacock is dancing");
+		}
+	
+
+}

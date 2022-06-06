@@ -1,0 +1,11 @@
+package com.xworkz.core_java.inheritance.multilevel_inheritance.bird;
+
+public class Bird {
+	string name;
+	string color;
+	void fly() {
+		System.out.println(name+"is flying");
+		}
+	
+
+}

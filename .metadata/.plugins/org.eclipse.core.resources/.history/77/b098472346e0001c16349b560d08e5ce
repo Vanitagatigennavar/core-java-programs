@@ -1,0 +1,37 @@
+package com.xworkz.core_java.inheritance.single_inheritance;
+
+public class Maruti extends Car {
+	public Maruti()
+	{
+		System.out.println("Class Maruti");
+	}
+}
+public void brand()
+{
+	System.out.println("Brand Maruti");
+}
+public void speed()
+{
+	System.out.println("max:90kmph");
+}
+public class Maruti800 extends Maruti{
+	public Maruti800()
+{
+		System.out.println("maruti model:800");
+}
+	public void speed()
+{
+		System.out.println("max:80kmph");
+}
+	public static void main(String args[])
+{
+		Maruti800 obj=new Maruti800();
+		obj.vehicleTyfe();
+		obj.brand();
+		obj.speed();
+}
+}
+		
+		
+	}
+}
