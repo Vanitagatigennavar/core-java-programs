@@ -1,0 +1,16 @@
+package com.xworkz.BasicPrograms;
+public class star
+{
+	static int row=0;
+	public static void main(String[] args)
+{
+        for( int i=0;i<row;i++)
+	{
+		for(int j=0;j<=i;j++)
+		{
+			System.out.println("*");
+		}
+		    System.out.println();
+	}		
+}
+}

@@ -4,4 +4,20 @@
 		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
 		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1653460451388"/>
 	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\SIC\Downloads\core_java (2)\core_java\src\com\xworkz\corejava\Has_a_relation"/>
+			<item value="C:\Users\SIC\eclipse-workspace\core-java\src\com\xworkz\core_java\Constructor"/>
+			<item value="C:\Users\SIC\eclipse-workspace\core-java\src\com\xworkz\core_java\Polymorphidum"/>
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="C:\Users\SIC\eclipse-workspace\core-java\src\com\xworkz\core_java\Has_a_relation"/>
+	</section>
 </section>
