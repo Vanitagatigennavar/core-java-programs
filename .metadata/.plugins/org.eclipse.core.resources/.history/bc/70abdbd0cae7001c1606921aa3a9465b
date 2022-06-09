@@ -1,0 +1,8 @@
+package com.xworkz.inheritance.single_inheritance.bird;
+
+public class Eagleextends Bird {
+	void color()
+	{
+		System.out.println("white heads and tails with dark brown");
+	}
+}
