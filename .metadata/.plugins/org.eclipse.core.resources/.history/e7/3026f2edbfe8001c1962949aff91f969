@@ -1,0 +1,16 @@
+package com.xworkz.constructor.constructor_chaining.chair;
+
+public class Plastic extends Chair
+{    
+	String model;
+	String color;
+	Plastic(String model) {
+		super(model);
+		
+	}
+	
+	 
+	
+	}
+
+}

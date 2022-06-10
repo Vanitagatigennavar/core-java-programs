@@ -1,4 +1,4 @@
-package com.xworkz.inheritance.multilevel_inheritance.bird;
+-+package com.xworkz.inheritance.multilevel_inheritance.bird;
 
 public class BabyPeacock extends Peacock{
 	void follow() {

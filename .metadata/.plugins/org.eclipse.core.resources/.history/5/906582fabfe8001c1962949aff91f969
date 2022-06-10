@@ -1,0 +1,11 @@
+package com.xworkz.constructor.constructor_chaining.chair;
+
+public class ConstructorChainingWithBaseClass {
+	public static void main(String[] ars) {
+		Chair chair=new Chair("poorvika");
+		Plastic plastic=new Plastic();
+		
+		 
+	}
+
+}

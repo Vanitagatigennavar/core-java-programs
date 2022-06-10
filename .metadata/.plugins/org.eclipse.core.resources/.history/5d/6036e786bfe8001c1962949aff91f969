@@ -1,0 +1,12 @@
+package com.xworkz.constructor.constructor_chaining.chair;
+
+public class Chair 
+{
+	String model;
+	
+	Chair (String model)
+	{
+		this.model="2d";
+		System.out.println("Constucted chair");
+	}
+} 
