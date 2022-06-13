@@ -1,0 +1,8 @@
+package com.xworkz.abstraction.interface_test;
+
+public interface Computer {
+	static void slot(Printer printer) {
+		Printer.print();
+	}
+
+}

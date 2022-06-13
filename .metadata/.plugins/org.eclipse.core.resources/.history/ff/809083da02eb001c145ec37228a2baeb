@@ -1,0 +1,13 @@
+package com.xworkz.abstraction.interface_test.tax;
+
+public class Interface_Test {
+
+	public static void main(String[] args)
+	{
+		
+		TexCalculator textCalculator=new TexCalculator();
+		texCalculator.central();
+
+	}
+
+}

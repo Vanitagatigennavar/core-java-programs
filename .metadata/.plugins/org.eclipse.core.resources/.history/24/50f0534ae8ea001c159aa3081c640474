@@ -1,0 +1,5 @@
+package com.xworkz.abstraction;
+
+public interface Interface_test {
+
+}
