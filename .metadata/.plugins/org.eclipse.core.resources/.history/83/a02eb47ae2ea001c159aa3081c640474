@@ -1,0 +1,6 @@
+package com.xworkz.abstraction.abstract_class;
+
+public class Mobile extends Microsoft{
+	
+
+}

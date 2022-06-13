@@ -1,0 +1,14 @@
+package com.xworkz.abstraction.abstract_class;
+
+ abstract class Honda extends  Hero 
+{
+	 
+	  void assembleBody() 
+	 {
+	 
+		System.out.println("engine manufactured by honda");
+	}
+
+}
+
+

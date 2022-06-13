@@ -1,0 +1,15 @@
+package com.xworkz.abstraction;
+
+public class MobileTest 
+{
+	public static void main (string[] args) 
+	
+{
+	Microsoft microsoft = new Microsoft();
+	microsoft.leftArrow();
+	microsoft.rightArrow();
+	microsoft.upArrow();
+	microsoft.DownArrow();
+}
+
+}

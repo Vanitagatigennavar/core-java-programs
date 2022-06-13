@@ -1,0 +1,8 @@
+package com.xworkz.abstraction.abstract_class;
+
+abstract class Hero {
+	void engin() {
+		System.out.println("engine manufacturde by hero");
+	}
+	abstract void assembleBody();
+}
