@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.xworkz.constructor.constructor_chaining.TataMotors"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.xworkz.abstraction.interface_test.Computer"/>
+    <fullyQualifiedTypeName name="sun.net.www.content.text.plain"/>
+    <fullyQualifiedTypeName name="com.xworkz.abstraction.interface_test.Sony"/>
+    <fullyQualifiedTypeName name="com.xworkz.abstraction.interface_test.Printer"/>
 </qualifiedTypeNameHistroy>
