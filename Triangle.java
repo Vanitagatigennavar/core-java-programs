@@ -1,18 +1,18 @@
 //To demonstrate simple Triangle pattern program
 class Triangle 
 {
-             void TriangleMatrix()
+             void triangleMatrix()
    {
-             for(int row=i;row<=10;row++)
+             for(int row=1;row<=10;row++)
 			 {
-{
-	         for(int col=row;col<=row; col++)
+
+	         for(int col=row;col<=10; col++)
 			 {
-		        System.out.println("");
+		        System.out.print(" ");
              }
              for(int col=1; col<=row;col++)
              {
-	              System.out.println(" ");
+	              System.out.print("* ");
              }
                   System.out.println();
         }
@@ -22,5 +22,4 @@ class Triangle
 	            Triangle matrix=new Triangle();
 	            matrix.triangleMatrix();
     }
-}
 }
