@@ -1,0 +1,10 @@
+package com.xworkz.type_casting.implicit;
+
+public class PrimitiveExplicit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
