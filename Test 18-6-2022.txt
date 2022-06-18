@@ -1,0 +1,175 @@
+1)  java is not pure object oriented language because the programer creating the objects.crating the object.
+
+
+2)  java not make use of pointers because the ambiguity of the program.and the     showing the security issue.
+
+
+5)  no,main method can not be overloaded.
+
+
+6)   static is the shared in the instance of a class.
+
+
+9)   Variables are the memory allocations available in java
+
+
+10)   instance variable       -        local variable 
+    
+   * instance variable is the       *local variable is declared in the inside   
+    globel variable,                 the class but outside body of the method.
+   * instance variable declared     *local variable do not declared in the  
+     in the inside the body of the    static variable.
+      method.
+    *instace variable is the do 
+      shared the instace of a class
+     because it is specific.  
+
+       
+ 11)when the main() isn't declared the static ,static is an modifier we have to declared in the main method .    
+
+12)   jdk is the java devolpment kit ,
+ 
+      jdk varients are JRE and JVM and API.
+
+13)   java devolpment kit -
+      * jdk is the platform  defendent. 
+      * jdk is the java software devolpment environment ,it   is devolping the            java applications.
+      
+      java run time environment-
+      * jre is the platform defendent, 
+      * jre the java run time environment it is jre is the         software         tools,devolping the java applications,
+      
+      jvm java virtual machine-
+       *  jvm is platform defendent,
+       *  jvm is the convers the java source code to byte code,
+       *  jvm act as platform indefendent also when the compile time byte code           is converted in to the byte code to machine code           
+
+14)   no ,
+
+
+19) abstract class - abstract is the type of abstraction ,abstract class used as                      the  abstract keyword .
+                     in the abstract class donot used the constuctor,
+
+
+    Interface     -interface is also the type of abstraction ,interface using                    the implements in the.
+                   interface having the one main class will be the creating the                    interface.and then the classes, 
+
+20)   method overloading- 
+       overloading is the having the multiple methods using the program,                   with the same name but different calling  in parameters . 
+
+
+21) method overriding-
+       overriding is the using the  but the same sub class name is same as the          parent class with the same parameters,
+
+
+22)can not ovrride the static method in java,
+
+
+23)rules of overriding-
+   *  method overriding is the same class name ,
+   * and parent class name and sub calsses are same name,
+   *overriding is the using constructors methods,  
+
+
+27)  constructor its a special method ,type of data initializing the object. 
+     yes, we can ovrloading the constructor.
+
+
+25)   method overloading- 
+       overloading is the having the multiple methods using the program,                   with the same name but different calling  in parameters . 
+
+
+28)   different types of constructor 
+        1) default constructor -  this constructor has the do not passing the                                   parameters,  
+
+        2) parameterized constructor - this constructor has the passing the                                         parameters , 
+
+29)    different types of inheritance 
+        1) single inheritance  -  child class inherits the parent calss ,
+              ex)    animal , dog 
+
+         2)  multilevel inheritance -   it is the inherits the chining of the                classes,
+               ex)   animal ,dog , baby dog.
+
+         3)   hirarchical     -     two subclasses inherits the one super class,
+               ex )   animal ,dog ,cat
+
+
+         4) multiple   -      two super class inherites the one subclass it is                                   so complexity of the program .so it is only 
+                                achieve in the interface,
+
+                                   ex ) class A,B  extends class C
+
+          5)  hybrid inheritance  -   ex)  diamond
+         
+ 
+
+16)       polymorphism-  its the importent of the oops concept ,one action             performs  the different ways.poly means many morphism means the            forms.
+
+
+           class  Animal
+              {
+                 void eat()
+                 System.out.println("eating");
+               }
+               class Dog extends Animal
+                {
+                  void eat()
+                   System.out.println("eating biscuit");
+               }
+                  class BabyDog  extends Animal
+                   
+                  {
+                     void eat()
+                      System.out.println("eating milk");
+                  }
+                 public staic void main(String [] args )
+                   {
+
+                     Animal a1,a2,a3;
+                      a1 = new Animal(); 
+                      a2= new Dog();
+                      a3=new BabyDog();
+                    
+                     a1.eat();
+                      a2.eat();
+                      a3.eat();
+                   }         
+                      
+
+ 17)  Abstraction - it is the hiding the implementation and  the only showing                     the functionalities of the user.
+    
+         : Polymorphism examle           
+                class  Animal
+              {
+                 void eat()
+                 System.out.println("eating");
+               }
+               class Dog extends Animal
+                {
+                  void eat()
+                   System.out.println("eating biscuit");
+               }
+                  class BabyDog  extends Animal
+                   
+                  {
+                     void eat()
+                      System.out.println("eating milk");
+                  }
+                 public staic void main(String [] args )
+                   {
+
+                     Animal a1,a2,a3;
+                      a1 = new Animal(); 
+                      a2= new Dog();
+                      a3=new BabyDog();
+                    
+                     a1.eat();
+                      a2.eat();
+                      a3.eat();
+                   }           
+
+
+
+
+       
