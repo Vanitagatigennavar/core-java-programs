@@ -1,9 +1,0 @@
-package com.xworkz.abstraction.interface_test;
-
-public interface Printer {
-	default void print()
-
-	{
-		System.out.println("printing");
-	}
-}

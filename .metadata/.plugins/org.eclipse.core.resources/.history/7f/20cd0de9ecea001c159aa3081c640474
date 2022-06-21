@@ -1,9 +1,0 @@
-package com.xworkz.abstraction.interface_test;
-
-public interface Sony {
-	void print();
-	{
-		System.out.println("printing")
-	}
-
-}

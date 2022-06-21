@@ -5,10 +5,7 @@ public class Tiger
 	String name;
 	String color;
 	String gender;
-	Tiger()
-      {
-		this("Leo","White","Female");
-       }
+	
 
 	Tiger(String name,String clr)
  {

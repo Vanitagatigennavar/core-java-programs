@@ -1,0 +1,16 @@
+package com.xworkz.inheritance.single_inheritance.laptop;
+
+public class SingleRunner {
+
+	public static void main(String[] args) {
+		Laptop laptop=new Laptop();
+
+	    Processor processor=new Processor();
+		laptop.brand();
+		laptop.price();
+	    processor.ram();
+		
+			
+
+	}
+}

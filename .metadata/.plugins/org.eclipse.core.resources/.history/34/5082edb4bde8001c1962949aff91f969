@@ -1,7 +1,0 @@
-package com.xworkz.constructor.constructor_chaining.chair;
-
-public class Plastic {
-	String model;
-	String color;
-
-}

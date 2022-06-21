@@ -1,0 +1,8 @@
+package com.xworkz.inheritance.single_inheritance.laptop;
+
+public class Laptop {
+	 void Brand() {
+		 System.out.println("brand");	
+		 }
+
+}
