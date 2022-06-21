@@ -1,8 +1,0 @@
-package com.xworkz.class_aptitude;
-
-public class PatternPg1 {
-	public static void main(String[] args) {
-		
-	}
-
-}

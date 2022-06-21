@@ -1,0 +1,10 @@
+package com.xworkz.encapsulation.pen;
+
+public class Fusiontest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
