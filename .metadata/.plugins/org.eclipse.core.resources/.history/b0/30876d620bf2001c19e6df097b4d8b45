@@ -1,0 +1,16 @@
+package com.xworkz.instanceofprogram.javaexample;
+
+public class Vanita
+{
+	
+	if (vanita instanceof CoreJavaex)
+	{
+		System.out.println(" i know about the corejava");
+	}
+	else if(vanita instanceof AdvanceJavaex)
+	{
+		System.out.println("i know about the AdvanceJava");
+		
+	}
+
+}

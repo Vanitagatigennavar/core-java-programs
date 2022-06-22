@@ -1,0 +1,13 @@
+package com.xworkz.instanceofprogram.javaexample;
+
+public class JavaExampleRunner {
+
+	public static void main(String[] args)
+	{
+		JavaExample je=new JavaExample();
+		Vanita v=new Vanita();
+		v.read(je);
+
+	}
+
+}

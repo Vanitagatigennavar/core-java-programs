@@ -1,0 +1,11 @@
+package com.xworkz.instanceofprogram.sweet;
+
+public class SweetRunner {
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}
