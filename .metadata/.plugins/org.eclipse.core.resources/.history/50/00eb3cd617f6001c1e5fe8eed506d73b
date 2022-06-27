@@ -1,0 +1,14 @@
+package com.xworkz.object_class_method.boolean_equalsv.ac;
+
+public class Ac {
+	String type;
+	String color;
+	double price;
+	Ac(String type,String color,double price){
+		this.type=type;
+		this.color=color;
+		this.price=price;
+
+		}
+
+}

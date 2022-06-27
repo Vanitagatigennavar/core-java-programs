@@ -1,0 +1,10 @@
+package com.xworkz.object_class_method.stringtostring.laptop;
+
+public class LaptopToStringTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.xworkz.interview.interview;
+
+public class Demo2 extends Demo{
+	
+	public void function() {
+		System.out.println("func");
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.xworkz.object_class_method.hashcode.chair;
+
+public class Chair 
+{
+	public void hashcode()
+	{
+		System.out.println("hashcode overhidden");
+		
+	}
+
+}

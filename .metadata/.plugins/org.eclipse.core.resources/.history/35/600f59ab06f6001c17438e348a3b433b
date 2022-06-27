@@ -1,0 +1,5 @@
+package com.xworkz.object_class_method.hashcode.chair;
+
+public class Chair {
+
+}
