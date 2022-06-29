@@ -8,7 +8,7 @@ public class AcTest {
        Ac ac =new Ac("lg","pink",25000);
        Ac ac1=new Ac("samsung","red",15000);
        
-       System.out.println(ac.equals(ac1));
+       System.out.println(ac.equals(ac));
        
 	}
 

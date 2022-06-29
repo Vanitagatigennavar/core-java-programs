@@ -1,9 +1,0 @@
-package com.xworkz.encapsulation.pen;
-
-public class Fusionpen{
-	String name;
-	int price;
-	String colour;
-	
-
-}

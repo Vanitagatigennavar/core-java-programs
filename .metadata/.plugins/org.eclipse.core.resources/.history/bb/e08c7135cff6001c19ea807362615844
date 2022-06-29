@@ -1,0 +1,10 @@
+package com.xworkz.object_class_method.clone_method.soap;
+
+public class SoapcloneTestMethod {
+
+	public static void main(String[] args) {
+      Soap lux=new Soap("lux","white",25.00);
+      
+	}
+
+}

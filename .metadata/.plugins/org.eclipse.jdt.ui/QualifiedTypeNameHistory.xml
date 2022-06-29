@@ -7,4 +7,8 @@
     <fullyQualifiedTypeName name="com.xworkz.abstraction.interface_test.Printer"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.xworkz.inheritance.multilevel_inheritance.book.Book"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="com.xworkz.object_class_method.clone_method.soap.Soap"/>
+    <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,19 @@
+package com.xworkz.object_class_method.clone_method.soap;
+
+public class Soap {
+	String type;
+	String color;
+	double price;
+	
+	Soap(String tyfe,String color,double price)
+	{ 
+		this.type=type;
+		this.color=color;
+		this.price=price;
+		
+	}
+	public Soap copy() throws CloneNotSupportedException();
+	object obj=super.clone();
+	Soap soap=(Soap)obj;
+	return Soap;
+}
