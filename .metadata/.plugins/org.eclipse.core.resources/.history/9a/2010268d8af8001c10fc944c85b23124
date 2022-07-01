@@ -1,0 +1,17 @@
+package com.xworkz.object_class_method.finalizemethod.biriyani;
+
+public class Biriyani {
+	String type;
+	double price;
+	
+	Biriyani(String tyfe,double price){
+	this.type=type;
+	this.price=price;
+	}
+
+	
+
+   
+	
+	
+}
