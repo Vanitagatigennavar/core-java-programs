@@ -1,0 +1,14 @@
+package com.xworkz.array.SingledimensionArray;
+
+public class SingledimensionArray {
+
+	public static void main(String[] args) {
+	 int a[]=new int[5];//declaration and instantiation  
+		int num =10;  
+			//traversing array  
+			for(int i=1;i<a.length;i++)//length is the property of array  
+			System.out.println(a[i]);  
+			}  
+}
+
+

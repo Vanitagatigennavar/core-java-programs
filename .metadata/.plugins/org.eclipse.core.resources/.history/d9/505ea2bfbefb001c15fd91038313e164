@@ -1,0 +1,12 @@
+package com.xworkz.array.multidimensionalarray.lipstick;
+
+public class LipstickTest {
+
+	public static void main(String[] args) {
+       Lipstick[] lipsticks=new Lipstick[]();
+       lipsticks[]
+       Lipstick[]lipsticks= {}
+       
+	}
+
+}

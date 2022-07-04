@@ -1,9 +1,0 @@
-package com.xworkz.interview.interview;
-
-public class Demo {
-	
-	void function() {
-		System.out.println("func");
-	}
-
-}

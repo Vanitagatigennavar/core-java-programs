@@ -1,0 +1,10 @@
+package com.xworkz.array.multidimensionalarray.lipstick;
+
+public class LipstickTest {
+
+	public static void main(String[] args) {
+       Lipsticks lp=new 
+       
+	}
+
+}

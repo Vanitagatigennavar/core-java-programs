@@ -1,0 +1,10 @@
+package com.xworkz.array.multidimensionalarray;
+
+public class Studentclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

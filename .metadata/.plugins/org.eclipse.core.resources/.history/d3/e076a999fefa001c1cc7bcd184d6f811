@@ -1,0 +1,14 @@
+package com.xworkz.array.multidimensionalarray;
+
+public class StudentclassTest {
+
+	public static void main(String[] args) {
+        Studentclass s1=new Studentclass("vanita", 615622);
+        Studentclass s2=new Studentclass("shreyu", 615623);
+        Studentclass s3=new Studentclass("vasu", 615624);
+        Studentclass s4=new Studentclass("nayana", 615625);
+        
+        Studentclass[]Students=new Studentclass[4];
+	}
+
+}

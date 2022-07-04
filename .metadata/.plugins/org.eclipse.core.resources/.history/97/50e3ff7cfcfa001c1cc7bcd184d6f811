@@ -1,0 +1,15 @@
+package com.xworkz.array.SingledimensionArray;
+
+public class SingledimensionArray {
+public static void main(String[] args) {
+	 int a[]=new int[10];  
+		int num =5;  
+		for(int i=0;i<a.length;i++)
+		a[i]=num;
+      	 num++;
+		int i = 0;
+		System.out.println(a[i]);  
+			}  
+}
+
+

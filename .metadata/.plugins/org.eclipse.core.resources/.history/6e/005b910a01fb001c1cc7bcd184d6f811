@@ -1,0 +1,23 @@
+package com.xworkz.array.multidimensionalarray;
+
+public class Studentclass {
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+	String name;
+	int id ;
+	
+	Studentclass(String name,int id){
+		this.name=name;
+         this.id=id;
+	}}
+	
+	
+
+	
+
+

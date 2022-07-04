@@ -1,7 +1,0 @@
-package com.xworkz.interview.interview;
-
-public class DemoTest {
-
-	Demo2 demo=new Demo2();
-	
-}
