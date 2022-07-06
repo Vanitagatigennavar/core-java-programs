@@ -1,0 +1,14 @@
+package com.xworkz_String;
+
+public class StringDemo2 {
+
+	public static void main(String[] args) {
+          String name="nayana";
+          String namen="nayana";
+          System.out.println(name==namen);
+	
+	String name1="shreya";
+	String name2="shreya";
+    System.out.println(name==name2);
+    
+}}

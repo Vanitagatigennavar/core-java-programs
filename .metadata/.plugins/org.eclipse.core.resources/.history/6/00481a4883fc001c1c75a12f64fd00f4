@@ -1,0 +1,37 @@
+package com.xworkz.array.array_as_DTO_service;
+
+import com.xworkz.array.array_as_DAO.StudentDAO;
+import com.xworkz.array.array_as_DAO.StudentDAOimp;
+import com.xworkz.array.array_as_DTO.StudentDTO;
+
+public class StudentServiceimpl implements StudentService {
+	
+	StudentDAO studentDAO=new StudentDAO();
+
+	@Override
+	public void addStudent(StudentDTO dto) {
+		long number=dto.getPhno();
+		
+		
+	}
+
+	@Override
+	public StudentDTO read(long phno) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(StudentDTO dto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void add(StudentDTO dto) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

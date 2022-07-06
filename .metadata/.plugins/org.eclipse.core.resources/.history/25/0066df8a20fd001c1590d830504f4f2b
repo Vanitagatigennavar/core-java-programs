@@ -1,0 +1,16 @@
+package com.xworkz.array.SingledimensionArray;
+
+public class SingledimensionArray {
+public static void main(String[] arg) {
+	 int arr[]=new int[10];  
+		int num =5;
+		int i1=0;
+		for(int i=1;i<arr.length;i++)
+		arr[1]=num;
+      	 num++;
+	
+		System.out.println(arr[num]);  
+			}  
+}
+
+

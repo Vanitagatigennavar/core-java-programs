@@ -1,0 +1,15 @@
+package com.xworkz_String;
+
+public class StringDemo2 {
+
+	public static void main(String[] args) {
+          String name="nayana";
+          String namen="nayana";
+          System.out.println(name==namen);
+	}
+	String name="shreya";
+	String name2="shreya";
+    
+
+
+}

@@ -3,13 +3,11 @@ package com.xworkz.array.SingledimensionArray;
 public class SingledimensionArray {
 public static void main(String[] arg) {
 	 int arr[]=new int[10];  
-		int num =5;
-		
-		for(int i=0;i<arr.length;i++)
-		arr[i]=num;
-      	 num++;
+	for(int i=1;i<arr.length;i++)
+		arr[1]=i;
+      	 
 	
-		System.out.println(arr[i]);  
+		System.out.println(arr[1]);  
 			}  
 }
 

@@ -1,16 +1,19 @@
 package com.xworkz.array.multidimensionalarray.lipstick;
-
 public class LipstickTest {
 public static void main(String[] args) {
-       Lipstick lipsticks0=new Lipstick("myblame",220);
-       Lipstick lipsticks1=new Lipstick("streetwear",100);
-       Lipstick lipsticks2=new Lipstick("lakme",200);
-       Lipstick lipsticks3=new Lipstick("sugar",600);
-       Lipstick lipsticks4=new Lipstick("huda",500);
-       
-       Lipstick[] Lipsticks= {lipsticks0,lipsticks1,lipsticks2,lipsticks3,lipsticks4};
+	Lipstick vanita=new Lipstick("vanita",505);
+       Lipstick myglame=new Lipstick("myglamme",220);
+       Lipstick streetwear=new Lipstick("streetwear",100);
+       Lipstick lakme=new Lipstick("lakme",200);
+       Lipstick sugar=new Lipstick("sugar",600);
+       Lipstick huda=new Lipstick("huda",500);
+     Lipstick[] Lipsticks= {myglame,streetwear,lakme,sugar,huda,vanita};
        for (int i = 0; i < Lipsticks.length; i++) {
+    	   if(Lipsticks[i].price<=500)
+    	    
     	   System.out.println(Lipsticks[i]);
 		}
+    	   
+    	   }
        }
-}
+

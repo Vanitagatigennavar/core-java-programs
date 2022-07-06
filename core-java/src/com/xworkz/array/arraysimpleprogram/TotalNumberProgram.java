@@ -1,4 +1,4 @@
-package com.xworkz.array;
+package com.xworkz.array.arraysimpleprogram;
 
 public class TotalNumberProgram {
 

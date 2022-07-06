@@ -1,0 +1,12 @@
+package com.xworkz.array.array_as_DTO_service;
+
+import com.xworkz.array.array_as_DTO.StudentDTO;
+
+public interface StudentService {
+	void add (StudentDTO dto);
+	void read (long phno);
+	void update(StudentDTO dto);
+	
+	
+
+}

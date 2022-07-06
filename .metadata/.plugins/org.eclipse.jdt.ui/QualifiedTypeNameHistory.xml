@@ -14,4 +14,7 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.Throwable"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.xworkz.array.array_as_DTO.StudentDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.array.array_as_DAO.StudentDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.array.array_as_DAO.StudentDAOimp"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,16 @@
+package com.xworkz.array.array_as_DAO;
+
+import java.util.Arrays;
+
+import com.xworkz.array.array_as_DTO.StudentDTO;
+
+public class StudentDAOimp implements StudentDAO {
+	StudentDTO[] students =new StudentDTO[10];
+	
+	
+
+	}
+	
+	
+
+
