@@ -1,0 +1,5 @@
+package com.xworkz_dao_dto_test;
+
+public class DTO_employee {
+
+}

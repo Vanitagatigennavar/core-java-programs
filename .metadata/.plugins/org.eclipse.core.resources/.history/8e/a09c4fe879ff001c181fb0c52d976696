@@ -1,0 +1,14 @@
+package com.xworkz_dao_dto_test_Dao_employee;
+
+public class Main_employeedemo {
+
+	public static void main(String[] args) {
+		DTO_employee dto=new DTO_employee("vanita",12);
+		Employee_dao  dao=new Employee_dao ();
+		
+		dao.save(dto);
+		System.out.println(dao);
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.xworkz_dao_dto_test;
+
+public class DTO_employee {
+	
+	String name;
+	int id;
+	
+	public dto_employee()
+
+}

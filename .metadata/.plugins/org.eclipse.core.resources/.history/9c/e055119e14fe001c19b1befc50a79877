@@ -1,0 +1,18 @@
+package com.xworkz.String_methods;
+
+public class StringMethod {
+public static void main(String[] args) {
+		String name=new String("varsha");
+		System.out.println("name:"+name);
+		
+		String uppercasename=name.toUpperCase();
+		System.out.println("uppercasename:"+ uppercasename);
+		
+		String sirname="akkkk";
+		
+		String concatename=name.concat(" vanita");
+		System.out.println("concatename:"+concatename);
+		
+		String  
+	}
+}

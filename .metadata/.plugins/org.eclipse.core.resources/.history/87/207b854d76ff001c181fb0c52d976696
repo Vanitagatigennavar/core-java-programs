@@ -1,0 +1,8 @@
+package com.xworkz_dao_dto_test_Dao_employee;
+
+public interface Employee_dao extends DTO_employee{
+	
+	void save(DTO_employee);
+}
+
+

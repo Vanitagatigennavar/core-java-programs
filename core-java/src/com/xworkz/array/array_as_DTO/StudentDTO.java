@@ -1,6 +1,8 @@
 package com.xworkz.array.array_as_DTO;
 
-public class StudentDTO {
+import java.io.Serializable;
+
+public class StudentDTO implements Serializable {
 	private String id;
 	private String name;
 	private String batchname;
@@ -10,13 +12,14 @@ public class StudentDTO {
 	public StudentDTO() {
 		System.out.println("invoked default constructor");
 	}
-	public StudentDTO(String id, String name, String batchname, long photo, String percentage) {
+	public StudentDTO(String id, String name, String batchname, long phNo, String percentage) {
 
 		this.id = id;
 		this.name = name;
 		this.batchname = batchname;
 		this.phNo = phNo;
 		this.percentage = percentage;
+		System.out.println("invoked parameters constructor");
 	}
 	public String getId() {
 		return id;
@@ -47,6 +50,11 @@ public class StudentDTO {
 	}
 	public void setPercentage(String percentage) {
 		this.percentage = percentage;
+	}
+	@Override
+	public String toString() {
+		return "StudentDTO [id=" + id + ", name=" + name + ", batchname=" + batchname + ", phNo=" + phNo
+				+ ", percentage=" + percentage + "]";
 	}
 	
 }

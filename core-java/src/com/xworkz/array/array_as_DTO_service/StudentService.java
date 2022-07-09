@@ -5,10 +5,10 @@ import com.xworkz.array.array_as_DTO.StudentDTO;
 public interface StudentService {
 	void addStudent(StudentDTO dto);
 
-	StudentDTO gStudentDTO(long phNo);
+	StudentDTO getStudentDTO(long phNo);
 
 	void updateStudent(StudentDTO dto);
 
-	StudentDTO getStudentDTO(int i);
+	
 
 }
