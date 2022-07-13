@@ -20,4 +20,12 @@
     <fullyQualifiedTypeName name="com.xworkz.array.array_as_DTO.StudentDTO"/>
     <fullyQualifiedTypeName name="com.xworkz.array.array_as_DAO.StudentDAO"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.xworkz_exception_exception_checked.ExceptionAtm"/>
 </qualifiedTypeNameHistroy>

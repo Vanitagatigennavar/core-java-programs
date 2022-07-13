@@ -5,4 +5,5 @@ public interface StudentDAO
     void addStudent(StudentDTO dto);
 	StudentDTO getStudentDTO(long phNo);
 	void updateStudent(StudentDTO dto);
+	public void deleteName(String name);
 }

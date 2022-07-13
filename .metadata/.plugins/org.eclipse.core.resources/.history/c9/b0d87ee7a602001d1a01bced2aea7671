@@ -1,0 +1,22 @@
+package com.xworkz_exception_exception_checked;
+
+public class ExceptionAtm extends Exception {
+
+	public ExceptionAtm(String message, Throwable message1) {
+		super(message,message1);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+//	@Override
+//	public String toString() {
+//
+//		return "you crossed daily limit:";
+//	}
+//	@Override
+//	public String getMessage() {
+//	return "invalid amount entered:";
+//	}
+}
