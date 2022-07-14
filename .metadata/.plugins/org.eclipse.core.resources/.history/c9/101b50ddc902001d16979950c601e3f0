@@ -1,0 +1,23 @@
+package com.xworkz_exception_custom_unchecked;
+import com.xworkz_exception_exception_custom_checked.ExceptionAtm;
+public class FlipcartTestDemo {
+public static void main(String[] args ) {
+		Flipcart fc=new Flipcart();
+		String dress="menswear";
+		try {
+			fc.Shopping(dress, 5000);
+			
+		} catch (ExceptionFlipcart e)  {
+			if (dress=="kidswear") {
+				System.out.println(e);
+			}
+			else {
+				System.out.println(e.getMessage());
+				}
+			}
+	}
+}
+		
+
+	
+

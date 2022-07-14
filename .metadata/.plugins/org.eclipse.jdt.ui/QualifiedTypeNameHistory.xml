@@ -28,4 +28,7 @@
     <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.xworkz_exception_exception_checked.ExceptionAtm"/>
+    <fullyQualifiedTypeName name="com.xworkz_exception_custom_unchecked.ExceptionFlipcart"/>
+    <fullyQualifiedTypeName name="jdk.jshell.spi.ExecutionControl.RunException"/>
+    <fullyQualifiedTypeName name="com.xworkz_exception_custom_unchecked_product_Flipcart.Flipcartproduct"/>
 </qualifiedTypeNameHistroy>

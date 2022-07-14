@@ -1,0 +1,19 @@
+package com.xworkz_exception_custom_unchecked;
+public class Flipcart {
+	void hopping(String dress,int ammount) throws ExceptionFlipcart{
+		
+		if( dress=="womenwear"||dress=="kidswear"||dress < 50000 ) {
+			ExceptionFlipcart exceptionFlipcart=new ExceptionFlipcart();
+		}
+		throw exceptionFlipcart;
+	}
+	else  {
+		System.out.println("customer will get dress");
+	}
+}
+		
+	}
+
+}
+}
+

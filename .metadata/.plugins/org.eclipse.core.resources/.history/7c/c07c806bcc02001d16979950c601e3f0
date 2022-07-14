@@ -1,0 +1,16 @@
+package com.xworkz_exception_custom_unchecked;
+
+public class ExceptionFlipcart extends Exception {
+	
+	@Override
+	public String toString() {
+		return "you will take dress womenwear only";
+	}
+	@Override
+	public String getMessage() {
+		return "will take womenwear";
+		}
+
+	}
+
+

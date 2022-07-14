@@ -1,0 +1,21 @@
+package com.xworkz_exception_exception_custom_checked;
+
+import jdk.jshell.spi.ExecutionControl.RunException;
+
+public class ExceptionAtm extends RunException {
+
+//	public ExceptionAtm(String message) {
+//		super(message);
+//		
+	// TODO Auto-generated constructor stub
+	@Override
+	public String toString() {
+
+		return "you crossed daily limit:";
+	}
+
+	@Override
+	public String getMessage() {
+		return "invalid amount entered:";
+	}
+}
