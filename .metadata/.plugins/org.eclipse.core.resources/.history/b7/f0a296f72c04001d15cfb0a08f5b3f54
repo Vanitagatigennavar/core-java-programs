@@ -1,0 +1,17 @@
+package com.xworkz_exception_exception_handling;
+public class ExceptionHandlingDemo {
+
+	public static void main(String[] args) {
+		
+		try {
+		System.out.println("main is started");
+		String s= "Xworkz";
+      	s=null;
+      	System.out.println(s.length());
+      	}
+		catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+			
+      	}
+	}

@@ -1,0 +1,15 @@
+package com.xworkz_exception_exception_handling;
+
+public class ExceptionHandlingDemo {
+
+	public static void main(String[] args) {
+		
+		String s= "Xworkz";
+//		s=null;
+		System.out.println("main is started");
+		
+		
+
+	}
+
+}

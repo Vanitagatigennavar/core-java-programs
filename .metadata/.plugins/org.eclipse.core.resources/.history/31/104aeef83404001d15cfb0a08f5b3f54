@@ -1,0 +1,20 @@
+package com.xworkz_exception_exception_handling;
+
+public class ExceptionHandlingdemo2 {
+
+	public static void main(String[] args) {
+		try {
+			String name="Vanita";
+			System.out.println(name.length());
+
+			int a,b;
+			name=null;
+			System.out.println(3/0);
+			
+		} catch (ArithmeticException |NullPointerException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

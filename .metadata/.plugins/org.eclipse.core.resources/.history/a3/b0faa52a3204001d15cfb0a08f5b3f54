@@ -1,0 +1,17 @@
+package com.xworkz_exception_exception_handling;
+
+public class ExceptionHandlingdemo2 {
+
+	public static void main(String[] args) {
+		try {
+			String name="Vanita";
+			name=null;
+			System.out.println(name.toUpperCase());
+			
+		} catch (Exception e) {
+			
+		}
+
+	}
+
+}
