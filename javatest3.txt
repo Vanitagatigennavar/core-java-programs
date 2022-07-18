@@ -1,0 +1,234 @@
+1. What is var-args? Explain with Syntax
+ans:       In Java methods, parameters accept arguments with three dots. These are known as variable arguments.
+
+       syntax:  sample(int args …){
+                       }
+           If they are used you can pass a different number of arguments each time you call these methods.
+
+
+     
+2. What is blocks? Explain the types of Blocks
+
+ans:     A block in Java is a set of code enclosed within curly braces { } within any class, method, or constructor. 
+
+          1) static block . 
+           2) non static block.
+
+3. What is hashCode() ?Give example 
+ans:   hashCode() Method. The hashCode() is a method of Java Integer Class which determines the hash code for a given Integer. 
+  
+       It overrides hashCode in class Object. By default, 
+       this method returns a random integer that is unique for each instance.
+
+4. Why String is immutable? What is string constant pool
+ans:   *Security. Java applications contain much sensitive information like network connections, database connection URLs, username, password, and e.t.c.
+ 
+       *Synchronization and Concurrency. By developing classes as immutable, by default this nature makes them threadsafe. ...
+ 
+       *Class Loading. While class loading string is used as an argument. ...
+ 
+       *HashCode Caching. ...
+
+5. Difference between character constant and String constant ?
+ans:   . Difference character constant and string constant
+     
+          *  character constant:-
+Character Constants are written by enclosing a character within a pair of single quotes.
+     
+            Character Constants are assigned to variables of type char. 
+
+       
+          *  String constant:-
+String Constants are written by enclosing a set of characters within a pair of double quotes.
+      
+            String Constants are assigned to variables of type String.
+
+6. What is an Exception? explain the different types of Exception
+ans: It is an object in which one class acquire the property of another class is called IS-A relationship.
+   HAS-A relationship is also known as association,Association is a relationship      between two seperate classes establishes through their object.composition and aggregation are the two forms of association.
+      types of exception :1)user defined
+                           2) built in exception--*checked exception.**unchecked exception.
+
+7. Advantages of Exception ?                      
+ans:* Separating Error-Handling Code from "Regular" Code
+    * Propagating Errors Up the Call Stack
+    * Grouping and Differentiating Error Types
+
+8. Can we have try block with catch block?
+ans :   yes ,try block with catch block, we can declare a try-catch block within another try-catch block this is called nested try-catch block.
+
+9. Explain Throw keyword in java?
+ans : The throw keyword is used to throw an statement,it throws only one object at a time we cant throw multiple object.   
+
+10. Can you write any code after the throw statement?
+ans :   no, we can write any statment in after throw. 
+
+11. Explain the Finally block with example?
+ans:java finally block is always executed whether an exception is handled or not. Therefore, it contains all the necessary statements that need to be printed regardless of the exception         occurs or not.
+    use of finally:
+    *finally block in Java can be used to put "cleanup" code such as closing a file, closing connection, etc.
+    *The important statements to be printed can be placed in the finally block.
+     The finally block follows the try-catch block.
+    example: 
+      class TestFinallyBlock {    
+               public static void main(String args[]){    
+               try{    
+                  
+                int data=50/5;    
+                 System.out.println(data);    
+                  }      
+                    catch(NullPointerException e){  
+                      System.out.println(e);  
+                     }    
+  
+                   finally {  
+                      System.out.println("finally block is always executed");  
+                            }    
+    
+                      System.out.println("rest of phe code...");    
+                           }    
+                              }    
+
+12. What is an error?
+
+13. What is “IS-A” and “HAS-A” relationship in java?
+ans:*A relationship in Java means different relations between two or more classes.
+    * has -a  a Has-A relationship simply means that an instance of one class has a reference to an instance of another class or an other instance of the same class.using impliments            keyword.
+
+14. Why main() method is public , static and void in java?
+ans:   because , it is the main method acces the anywhere ,void will return the values .
+
+15. Can we overload the main method?
+ans:  yes
+
+16. Can we have nested methods in java?
+ans: Java does not support “directly” nested methods.,Many functional programming languages support method within method.,But you can achieve 
+     nested method functionality in Java 7 or older version by define local classes, class within method so this does compile."
+
+
+17. Can we write any methods in main() method?
+ans:no
+
+18. What is class and object? Give example
+ans:The object is an instance of a class and an object is a real-world entity. To access the members who are defined in the class you need to  create an object. for example, a chair, pen,     table, bike, book,etc are the example of Object. Creating an Object As we know Class Provides ,the Blueprints for Objects. Thus, an object is created from a Class.
+
+19. What is JIT?
+ans:  In the Java programming language and environment, a just-in-time (JIT) compiler is a program that turns Java bytecode
+    (a program that contains instructions that must be interpreted) into instructions that can be sent directly to the processor.
+
+
+20. Explain 10 built in exceptions in java
+ans:     IOException,
+		
+         SQLException,
+		
+         ArithmeticException,
+		 
+         NullPointerException,
+		 
+         ArrayIndexOutOfBoundsException,
+		
+         OutOfMemoryError,
+		 
+         VirtualMachineError,
+		 
+         AssertionError
+
+21. Can we create our own exception? Give example
+ans:In Java, we can create our own exceptions that are derived classes of the Exception class. Creating our own Exception is known as
+    custom exception or user-defined exception. Basically, Java custom exceptions are used to customize the exception according to user need. 
+     Consider the example 1 in which InvalidAgeException class extends the Exception class. Using the custom exception, we can have your own exception  and message.
+
+     Code sample:
+      class InvalidAgeException extends Exception{
+      InvalidAgeException(String s){
+       super(s);
+  }
+} 
+
+22. Explain the Try, Catch, Throw, Throws.
+ans:Try-catch block is used to handle the exception. In a try block, we write the code which may throw an exception and in catch b
+    lock we write code to handle that exception. Throw keyword is used to explicitly throw an exception.
+
+
+23. String is a Keyword or not?
+ans:no
+
+24. How to create a string object?
+ans:Creating an object of the String class using the new keyword by passing the string value as a parameter of its constructor.
+     Passing a character array to the String constructor.
+
+25. Write a program,
+1. method with parameter and return type
+ans :   1 .public class EvenOrOdd {
+	 
+	void checks(int n)
+	{
+		if(n%2 == 0)
+	      {
+		    System.out.println(n+"is a even");
+	      }
+		else
+		{
+			System.out.println(n+"is a odd");
+		}
+	}
+    }
+2. method without parameter and with return type
+ans:    class TestReturn 
+ {
+    int  display()
+      {
+    	  return 10;
+      }
+public static void main(String[] args)
+{
+	TestReturn tr = new TestReturn();
+	
+	tr.display();
+	System.out.println(tr.display());
+	
+	
+	
+}
+	
+	
+}
+3. method with parameter and without return type
+ans:   import java.util.Scanner;
+
+public class Again {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		EvenOrOdd eo = new EvenOrOdd();
+		
+		for(int i=1; i<=4; i++)
+		{
+			System.out.println("Enter the number");
+			int num=sc.nextInt();
+			eo.checks(num);
+			System.out.println("-------------");
+		}
+	} class MethodDemo {
+	
+	void display()
+	{
+		System.out.println("Hello world!");
+	}
+public static void main(String[] args)
+    {
+	  System.out.println("Start");
+	
+	   MethodDemo md = new MethodDemo();
+	   md.display();
+	   
+	   System.out.println("End");
+	   
+	}
+
+}
+
+
+}
+4. method without parameter and return type
+ans:
