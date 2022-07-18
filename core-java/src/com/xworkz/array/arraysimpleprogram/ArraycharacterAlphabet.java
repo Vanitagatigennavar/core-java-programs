@@ -3,7 +3,7 @@ package com.xworkz.array.arraysimpleprogram;
 public class ArraycharacterAlphabet {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
          char [] arr =new char[26];
          char alphabet='A';
          for(int i=0;i<arr.length;i++) {

@@ -8,7 +8,7 @@ public class ExceptionHandlingDemo {
      	s=null;
       	System.out.println(s.length());	
       	}
-		catch (Exception e) {
+		catch (Exception | NullPointerException e) {
 			e.printStackTrace();
 		}
 		finally {

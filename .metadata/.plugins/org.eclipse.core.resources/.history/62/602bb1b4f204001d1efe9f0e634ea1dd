@@ -4,7 +4,7 @@ public static void main(String[] args) {
 		try { 
 			String name="Vanita";
 			int a,b;
-			name=null;
+//			name=null;
 			System.out.println(3/2);
 			System.out.println(name.toUpperCase());
 		} catch (ArithmeticException | NullPointerException e) {

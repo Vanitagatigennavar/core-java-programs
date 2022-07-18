@@ -5,7 +5,7 @@ public class ExceptionHandlingDemo {
 		System.out.println("main is started");
 		try {
 		String s= "Xworkz";
-     	s=null;
+//     	s=null;
       	System.out.println(s.length());	
       	}
 		catch (Exception e) {
