@@ -1,0 +1,42 @@
+package com.xworkz_collectionTest_arraylist;
+
+import java.util.ArrayList;
+//import java.util.Iterator;
+
+public class ArraylistDemoWithTypesafe {
+
+	public static void main(String[] args) {
+       Book classmate=new Book("classmate",100,40);
+       classmate.getBrand();
+       classmate.getNoofpages();
+       classmate.getPrice();
+       
+       Book suleka=new Book("suleka", 200, 50);
+       suleka.getBrand();
+       suleka.getNoofpages();
+       suleka.getPrice();
+       
+       ArrayList <Book> al=new ArrayList<Book>();
+       al.add(classmate);
+       al.add(suleka);
+       
+//       for (Iterator iterator = al.iterator(); iterator.hasNext();) {
+//		Book book2 = (Book) iterator.next();
+       for (int i = 0; i <al.size(); i++) {
+		if(al.get(i).getNoofpages() == 200) {
+			System.out.println(al.get(i));
+			
+//         for (Book book11 : al) {
+//			if(book11.getNoofpages()==200) {
+//				System.out.println(book11);
+//		}
+
+		}
+			
+	}
+//	    System.out.println(book);
+//	    System.out.println(al);
+	}
+	}
+
+
