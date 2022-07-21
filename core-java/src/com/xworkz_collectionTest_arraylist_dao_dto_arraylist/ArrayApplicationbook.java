@@ -34,15 +34,20 @@ public class ArrayApplicationbook {
 		service1.addBook(aruns);
 		service1.addBook(yoga);
 		service1.addBook(db);
+		
 		System.out.println("");
 		
 		aruns.setPrice(500.00);
-		service1.updateBook(aruns);
+		 service1.updateBook(aruns);
 		System.out.println(" ");
 		
-		service1.getbook(100.00);
+		 service1.getbook(100.00);
+		 
 		System.out.println(" ");
+		
 		service1.deleteBook(suleka);
+		
+		
   
 	}
 	}

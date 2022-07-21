@@ -1,0 +1,24 @@
+package com.xworkz_collectionTest_vectordemo;
+
+import java.util.Vector;
+
+public class VectorDemo {
+
+	public static void main(String[] args) {
+		Vector vect=new Vector();
+		vect.add('A');
+		vect.add('B');
+		vect.add('C');
+		vect.add('D');
+		vect.add("VANITA");
+		System.out.println(vect);
+		
+		Vector vector=new Vector();
+		vect.add(vector);
+		vector.add("dharwad");
+		System.out.println(vect);
+		
+		
+	}
+
+}

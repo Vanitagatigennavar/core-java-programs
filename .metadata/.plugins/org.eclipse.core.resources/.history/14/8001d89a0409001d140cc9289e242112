@@ -1,0 +1,10 @@
+package com.xworkz_collectionTest_stackdemo;
+
+public class StackDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

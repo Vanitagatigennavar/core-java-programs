@@ -1,0 +1,32 @@
+package com.xworkz_collectionTest_vectordemo_dao_dto_runner;
+
+import com.xworkz_collectionTest_vectordemo_daodto_flight.Dto_flight;
+
+public class VectorAplication {
+
+	public static void main(String[] args) {
+		Dto_flight dtoflight= new Dto_flight();
+		dtoflight.setName(null);
+		dtoflight.setSource(null);
+		dtoflight.setType(null);
+		dtoflight.setPrice(0);
+		dtoflight.setDestination(null);
+		
+		Dto_flight dft=new Dto_flight();
+		dft.setName(null);
+		dft.setSource(null);
+		dft.setType(null);
+		dft.setPrice(0);
+		dft.setDestination(null);
+		
+		ServiceFlight sf=new Service_flightimpl();
+		 sf.addflight(null);
+		sf.addflight(null);
+		 System.out.println(" ");
+		
+		
+		
+
+	}
+
+}
