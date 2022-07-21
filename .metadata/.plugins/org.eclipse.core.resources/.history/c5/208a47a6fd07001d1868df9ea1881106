@@ -1,0 +1,10 @@
+package com.xworkz_collectionTest_arraylist_dao_dto_arraylist;
+
+public class Arraylist_Applicatin {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,4 +1,4 @@
-package com.xworkz_dao_dto_test;
+package com.xworkz_dao_dto_test_Dao_employee.xworkz_dao_dto_test;
 
 public class DTO_employee {
 	

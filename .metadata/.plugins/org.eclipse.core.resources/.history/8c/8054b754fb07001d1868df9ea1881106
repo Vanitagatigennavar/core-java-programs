@@ -1,0 +1,17 @@
+package com.xworkz_collectionTest_arraylist_dao_dto;
+
+public class Dto {
+	
+	private int modelNo;
+	private String companyName;
+	private String cubicCapacity;
+	private String color;
+	private double price;
+	private int topSpeed;
+	
+	Dto(){
+	
+	}
+	
+
+}

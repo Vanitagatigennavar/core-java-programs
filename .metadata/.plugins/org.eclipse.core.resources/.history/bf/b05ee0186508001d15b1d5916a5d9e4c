@@ -1,0 +1,14 @@
+package com.xworkz_collectionTest_arraylist_dao_dto_arraylist;
+
+import com.xworkz_collectionTest_arraylist_dao_dto.DtoBook;
+
+public interface BookService {
+	void addbook(DtoBook dto);
+	void updatebook(DtoBook dto);
+	void deletebook(DtoBook dto);
+	DtoBook getbook(DtoBook aruns);
+	
+	
+	
+
+}

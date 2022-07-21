@@ -1,0 +1,5 @@
+package com.xworkz_collectionTest_arraylist_dao_dto_arraylist;
+
+public class BikeserviceImp implements BikeService {
+
+}

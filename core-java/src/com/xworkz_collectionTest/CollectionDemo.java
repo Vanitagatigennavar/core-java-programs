@@ -9,11 +9,11 @@ public class CollectionDemo {
     al.add(1);
     al.add(2);
     al.add(3);
-    al.add(4);
-    al.add(5);
-    
+    al.add("india");
+    al.add(1);
     System.out.println(al);
-    
+    al.add("india");
+    System.out.println(al);
 	}
 
 }

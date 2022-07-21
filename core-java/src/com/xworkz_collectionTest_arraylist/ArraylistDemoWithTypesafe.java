@@ -1,6 +1,7 @@
 package com.xworkz_collectionTest_arraylist;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArraylistDemoWithTypesafe {
 
@@ -15,9 +16,19 @@ public class ArraylistDemoWithTypesafe {
        suleka.setNoofpages(200);
        suleka.setPrice(50.00);
        
-       ArrayList <Book> al=new ArrayList<Book>();
+       ArrayList <Book> al=new ArrayList<>();
        al.add(classmate);
        al.add(suleka);
+       
+       Iterator<Book> itr= al.iterator();
+       while(itr.hasNext()){
+    	   Book book=itr.next();
+       if(book.getBrand()=="classmate") {
+    	   System.out.println(book);
+       }
+       }
+	
+       
        for (int i = 0; i <al.size(); i++) {
 		if(al.get(i).getNoofpages() ==100) {
 			System.out.println(al.get(i));
@@ -28,13 +39,18 @@ public class ArraylistDemoWithTypesafe {
 			}
 			
          }
-         
+         while (itr.hasNext()) {
+			Book book = (Book) itr.next();
+			
 		}
+         for (Iterator iterator = al.iterator();
+        		 iterator.hasNext();) 
+         {
+			Book book = (Book) iterator.next();
+			System.out.println(book);
+			
 		}
-	}}
-		
-		
-	
-	
-
-
+		}		
+		}
+	}
+}

@@ -1,0 +1,17 @@
+package com.xworkz_collectionTest_arraylist_dao_dto_arraylist;
+
+import com.xworkz_collectionTest_arraylist_dao_dto.Dto;
+import com.xworkz_collectionTest_arraylist_dao_dto.DtoBook;
+
+public interface BookService {
+
+	
+	
+	void addBike(DtoBook dto);
+	Dto getBike(String companyName);
+	void updateBike(DtoBook dto);
+	void deleteBike(DtoBook dto);
+	
+
+
+}

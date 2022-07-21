@@ -1,0 +1,9 @@
+package com.xworkz_collectionTest_arraylist_dao_dto;
+
+public interface Dao_book {
+	void addbike(DtoBook dto);
+	 DtoBook getStudent(double price);
+	void updateStudent(DtoBook dto);
+	void deleteStudent(DtoBook dto);
+	
+}
