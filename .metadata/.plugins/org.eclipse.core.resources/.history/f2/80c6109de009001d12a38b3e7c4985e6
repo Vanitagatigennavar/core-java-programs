@@ -1,0 +1,12 @@
+package com.xworkz_collectionTest_set_set_linked_hashset;
+
+import java.util.LinkedHashSet;
+
+import com.xworkz_collectionTest_set_set_hash_set.TrainHashSet;
+
+public class Linkedhashsetwithcustomobject {
+
+	public static void main(String[] args) {
+		
+	LinkedHashSet lhs=new LinkedHashSet();	
+	lhs.

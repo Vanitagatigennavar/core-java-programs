@@ -1,0 +1,23 @@
+package com.xworkz_collectionTest_set_set_sorted_set;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class Sortedset {
+
+	public static void main(String[] args) {
+		
+		SortedSet sortedset =new TreeSet();
+		sortedset.add("vannu");
+		sortedset.add("vanita");
+		sortedset.add('v');
+		sortedset.add("null");
+		sortedset.add("vanita");
+		
+		System.out.println(sortedset);
+		System.out.println(sortedset.first());
+		
+
+	}
+
+}

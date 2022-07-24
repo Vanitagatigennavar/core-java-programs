@@ -1,0 +1,14 @@
+package com.xworkz_collectionTest_set_set_sorted_set;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class Sortedset{
+	public static void main(String[] args) {
+		String[] names= {"vc","bb","c","dd"};
+		SortedSet<String> ss=new TreeSet();
+		System.out.println(ss);
+		
+	}
+}
+			

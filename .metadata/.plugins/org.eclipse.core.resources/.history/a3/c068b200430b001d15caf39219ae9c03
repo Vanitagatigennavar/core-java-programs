@@ -1,0 +1,21 @@
+package com.xworkz_collectionTest_set_set_sorted_set;
+
+import java.util.SortedSet;
+
+public class Sortedset {
+
+	public static void main(String[] args) {
+		
+		Sortedset sortedset =new Sortedset();
+		sortedset.add("vannu");//
+		sortedset.add("vanita");
+		sortedset.add('v');
+		sortedset.add("null");
+		sortedset.add("vanita");
+		
+		System.out.println(sortedset);
+		
+
+	}
+
+}

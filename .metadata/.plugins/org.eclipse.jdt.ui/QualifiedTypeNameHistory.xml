@@ -50,4 +50,7 @@
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_vectordemo_daodto_flight.Dto_flight"/>
     <fullyQualifiedTypeName name="java.util.Enumeration"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
+    <fullyQualifiedTypeName name="java.util.SortedSet"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+package com.xworkz_collectionTest_set_set_hash_set;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		HashSet hs=new HashSet();
+		
+		hs.add('S');
+		hs.add("vanita");
+		hs.add('v');
+		hs.add("null");
+		hs.add("vanita");
+		
+		System.out.println(hs);
+
+	}
+
+}

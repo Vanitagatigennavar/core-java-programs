@@ -1,0 +1,53 @@
+package com.xworkz_collectionTest_set_set_hash_set;
+
+public class TrainHashSet {
+      String name;
+      int noofcompartments;
+      String source;
+      long number;
+      String Destination;
+      
+      TrainHashSet(){
+      }
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getNoofcompartments() {
+		return noofcompartments;
+	}
+
+	public void setNoofcompartments(int noofcompartments) {
+		this.noofcompartments = noofcompartments;
+	}
+
+	public String getSource() {
+		return source;
+	}
+
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+	public long getNumber() {
+		return number;
+	}
+
+	public void setNumber(long number) {
+		this.number = number;
+	}
+
+	public String getDestination() {
+		return Destination;
+	}
+
+	public void setDestination(String destination) {
+		Destination = destination;
+	}
+      
+}

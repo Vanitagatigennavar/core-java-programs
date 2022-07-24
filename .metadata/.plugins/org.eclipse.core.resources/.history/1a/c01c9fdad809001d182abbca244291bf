@@ -1,0 +1,23 @@
+package com.xworkz_collectionTest_set_set_hash_set;
+
+import java.util.HashSet;
+
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		HashSet hs=new HashSet();//underlined datastructure is hashtable
+		
+		hs.add('S');//it is not index based
+		hs.add("vanita");//it is not allowed null vales but allow one single null value
+		hs.add('v');//this will not on insertion order stored randomly
+        hs.add("null");//doesn't allow duplicates
+		hs.add("vanita");
+		
+		System.out.println(hs);
+        System.out.println(hs.remove('v'));
+	    System.out.println(hs);
+	}
+
+}

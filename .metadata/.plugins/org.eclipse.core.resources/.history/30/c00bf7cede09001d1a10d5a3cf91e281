@@ -1,0 +1,17 @@
+package com.xworkz_collectionTest_set_set_linked_hashset;
+
+import java.util.LinkedHashSet;
+
+public class LinkedHashsetDemo {
+
+	public static void main(String[] args) {
+		LinkedHashSet lhs=new LinkedHashSet();
+		lhs.add("nayana");
+		lhs.add("null");
+		lhs.add('C');
+		lhs.add('A');
+		lhs.add("null");
+	System.out.println(lhs);
+	}
+
+}
