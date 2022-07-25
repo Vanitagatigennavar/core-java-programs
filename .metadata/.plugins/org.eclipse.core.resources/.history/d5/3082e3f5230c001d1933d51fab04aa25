@@ -1,0 +1,10 @@
+package com.xworkz_collectionTest_set_set_tree_set;
+
+public class TreesetwithComparatormethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

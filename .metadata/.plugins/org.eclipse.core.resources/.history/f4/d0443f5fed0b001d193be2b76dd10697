@@ -1,0 +1,19 @@
+package com.xworkz_collectionTest_set_set_sorted_set;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class Sortedsetdemo{
+	public static void main(String[] args) {
+		
+		SortedSet ss=new TreeSet();
+		
+		ss.add("vanita");
+		ss.add("bb");
+		ss.add("bb");
+		System.out.println(ss);
+		ss.first();
+		
+	}
+}
+			

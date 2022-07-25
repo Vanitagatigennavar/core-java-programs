@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="com.xworkz.abstraction.interface_test.Sony"/>
     <fullyQualifiedTypeName name="com.xworkz.abstraction.interface_test.Printer"/>
     <fullyQualifiedTypeName name="com.xworkz.inheritance.multilevel_inheritance.book.Book"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="com.xworkz.object_class_method.clone_method.soap.Soap"/>
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
@@ -39,7 +38,6 @@
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_arraylist.xworkz_collectionTest_arraylist_dao_dto.Dto"/>
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_arraylist_dao_dto.Dto"/>
     <fullyQualifiedTypeName name="com.xworkz_dao_dto_test_Dao_employee.xworkz_dao_dto_test.DTO_employee"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_arraylist_dao_dto.DaoBookimpl"/>
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_arraylist_dao_dto.DtoBook"/>
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_arraylist_dao_dto.Dao_book"/>
@@ -47,10 +45,17 @@
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_vectordemo_daodto_flight_dao.Dao_flight"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_vectordemo_daodto_flight_dao.Dao_flightimpl"/>
-    <fullyQualifiedTypeName name="com.xworkz_collectionTest_vectordemo_daodto_flight.Dto_flight"/>
     <fullyQualifiedTypeName name="java.util.Enumeration"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
     <fullyQualifiedTypeName name="java.util.SortedSet"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="com.xworkz_collectionTest_vectordemo_daodto_flight.Dto_flight"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.xworkz_collectionTest_set_set_hash_set_dto.DtoTrain"/>
+    <fullyQualifiedTypeName name="com.xworkz_collectionTest_set_set_hash_set_dto_dao.Daotrain"/>
+    <fullyQualifiedTypeName name="com.xworkz_collectionTest_set_set_hash_set_dto_dao.Daoimpltrain"/>
 </qualifiedTypeNameHistroy>

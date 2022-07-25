@@ -1,0 +1,30 @@
+package com.xworkz_collectionTest_set_set_tree_set_comparemethod;
+
+import java.util.Comparator;
+import java.util.TreeSet;
+
+public class Treesetusingcomparemethod {
+
+	public static void main(String[] args) {
+		TreeSet<String> ts=new TreeSet<String>();
+		ts.add("a");
+		ts.add("gf");
+		ts.add("sir");
+		ts.add("utyu");
+		ts.add("qiopa");
+		ts.add("ghkhjk");
+		
+		 System.out.println("Tree Set values are: "+ ts);
+		 TreeSet<String> tree_set1 = new TreeSet<String>(new Comparator1());
+		 // Creating a comparator
+        Comparator comp = ts.comparator();
+     // Print and display the comparator values
+        System.out.println("Since the Comparator value is: "
+                           + comp);
+        
+        
+  
+
+	}
+
+}
