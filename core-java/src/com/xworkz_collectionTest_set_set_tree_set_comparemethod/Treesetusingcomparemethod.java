@@ -7,13 +7,13 @@ public class Treesetusingcomparemethod {
 
 	public static void main(String[] args) {
 		TreeSet<String> ts=new TreeSet<String>(new Comparatorstring1 ());
-		ts.add("a");
-		ts.add("gf");
-		ts.add("sir");
-		ts.add("utyu");
-		ts.add("qia");
-		ts.add("4");
-		ts.add("abb");
+		ts.add("vanita");
+		ts.add("nayanav");
+		ts.add("aru");
+		ts.add("vinnu");
+		ts.add("xworkz");
+		ts.add("vv");
+		ts.add("abhishek");
 //    System.out.println("return str1 to  str string values in alphabeticalorder:"+ts);
 //		System.out.println("return 0 when its the top of the string shows:"+ts);
 	    System.out.println("return -str1.compareTo(str):"+ts);

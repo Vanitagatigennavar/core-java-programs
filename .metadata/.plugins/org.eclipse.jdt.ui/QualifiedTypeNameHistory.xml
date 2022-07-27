@@ -58,4 +58,5 @@
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_set_set_hash_set_dto.DtoTrain"/>
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_set_set_hash_set_dto_dao.Daotrain"/>
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_set_set_hash_set_dto_dao.Daoimpltrain"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

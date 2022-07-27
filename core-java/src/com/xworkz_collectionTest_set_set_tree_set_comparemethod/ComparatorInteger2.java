@@ -5,16 +5,14 @@ import java.util.Comparator;
 public class ComparatorInteger2 implements Comparator<Integer> {
 
 	@Override
-	public int compare(Integer o1, Integer o2) {
-	Integer integer1 ;
-	Integer integer2;
+	public int compare(Integer int1, Integer int2) {
+	Integer integer1 =int1;
+	Integer integer2=int2;
 	
-	integer1=o1;
-	integer2=o2;
-	
-//		return 0;
-//	return integer2.compareTo(integer1);
-     return -integer2.compareTo(integer1);	
+//	return -integer1.compareTo(integer2);//reverse insertion order
+	return integer1.compareTo(integer2);// integer in insertin order 
+//	return 0;
+	}
 	}
 
-}
+
