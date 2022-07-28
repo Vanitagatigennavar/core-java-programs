@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.constructor.constructor_chaining.TataMotors"/>
-    <fullyQualifiedTypeName name="com.xworkz.abstraction.interface_test.Computer"/>
     <fullyQualifiedTypeName name="sun.net.www.content.text.plain"/>
     <fullyQualifiedTypeName name="com.xworkz.abstraction.interface_test.Sony"/>
     <fullyQualifiedTypeName name="com.xworkz.abstraction.interface_test.Printer"/>
@@ -59,4 +57,7 @@
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_set_set_hash_set_dto_dao.Daotrain"/>
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_set_set_hash_set_dto_dao.Daoimpltrain"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
 </qualifiedTypeNameHistroy>
