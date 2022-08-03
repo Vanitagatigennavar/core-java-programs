@@ -1,5 +1,0 @@
-package com.xworkz_collectionTest_vectordemo_dao_dto_runner;
-
-public interface ServiceFlight {
-
-}
