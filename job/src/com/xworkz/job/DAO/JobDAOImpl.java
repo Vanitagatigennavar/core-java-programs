@@ -47,7 +47,7 @@ public class JobDAOImpl implements JobDAO {
 	public JobDTO findbyId(int id) {
 		try {
 			Connection connection= DriverManager.getConnection(DBproperties.URL.getvalue(),DBproperties.USERNAME.getvalue(),DBproperties.SECRET.getvalue());
-			String search ="SELECT * FROM job.job_imfo where jon_id(?);";
+			String search ="SELECT * FROM job.job_imfo where jon_id=?";
 
 			PreparedStatement statement=connection.prepareStatement(search);
 			System.out.println(search);

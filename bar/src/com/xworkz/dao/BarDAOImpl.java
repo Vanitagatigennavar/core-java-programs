@@ -13,41 +13,41 @@ public class BarDAOImpl implements  BarDAO {
 
 	@Override
 	public boolean save(BarDTO bardto) {
-//		try {
-//			
-//			Connection connection= DriverManager.getConnection("jdbc:mysql://Localhost:3306/","root","@Vanita123");
-//			System.out.println(connection);
+		try {
 			
-//			String insert ="insert into bar.bar_info" +" values( "+bardto.getId()+",'"+
-//			bardto.getName()+"','"+bardto.getLocation()+"','"
-//					+bardto.getTyfe().getbar()+bardto.getLocation()+"',"
-//			+bardto.getAvgCollectionPerDay()+","+bardto.getAvgCollectionPerMonth()+")";
-//		  
-//			Statement statement =connection.createStatement();
-//			Integer affected=statement.executeUpdate(insert);
-//			
-//			if(affected>0) {
-//				System.out.println("data found:"+insert);
-//				return true;
-//			}
-//			else {
-//				System.out.println("Data not found ");
-//				return false;
-//			}
+			Connection connection= DriverManager.getConnection("jdbc:mysql://Localhost:3306/","root","@Vanita123");
+			System.out.println(connection);
 			
+			String insert ="insert into bar.bar_info" +" values( "+bardto.getId()+",'"+
+			bardto.getName()+"','"+bardto.getLocation()+"','"
+					+bardto.getTyfe().getbar()+bardto.getLocation()+"',"
+			+bardto.getAvgCollectionPerDay()+","+bardto.getAvgCollectionPerMonth()+")";
+		  
+			Statement statement =connection.createStatement();
+			Integer affected=statement.executeUpdate(insert);
 			
+			if(affected>0) {
+				System.out.println("data found:"+insert);
+				return true;
+			}
+			else {
+				System.out.println("Data not found ");
+				return false;
+			}
 			
 			
 			
-//		} catch (Exception e) {
-//		e.printStackTrace();
-//		}
-//		
-//		return false;
-//	}
-//
-//	
-//}
+			
+			
+		} catch (Exception e) {
+		e.printStackTrace();
+		}
+		
+		return false;
+	}
+
+	
+}
 			
 			
 			try {
@@ -60,8 +60,8 @@ public class BarDAOImpl implements  BarDAO {
 				bardto4.setId(null);
 				bardto4.setName("name");
 				bardto4
-				bardto4.setAvgCollectionPerDay(null);
-				bardto4.setAvgCollectionPerMonth(null);
+				bardto4.setAvgCollectionPerDay(avgCollectionPerDay);
+				bardto4.setAvgCollectionPerMonth(avgCollectionPerMonth);
 			    return bardto4;
 				} catch (Exception e) {
 			 e.printStackTrace();	 

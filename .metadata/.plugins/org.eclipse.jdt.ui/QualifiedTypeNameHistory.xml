@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz_dao_dto_test.DTO_employee"/>
-    <fullyQualifiedTypeName name="com.xworkz.array.array_as_DTO_service.StudentServiceimpl"/>
-    <fullyQualifiedTypeName name="com.xworkz.array.array_as_DTO.StudentDTO"/>
-    <fullyQualifiedTypeName name="com.xworkz.array.array_as_DAO.StudentDAO"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="com.xworkz_exception_exception_checked.ExceptionAtm"/>
-    <fullyQualifiedTypeName name="com.xworkz_exception_custom_unchecked.ExceptionFlipcart"/>
     <fullyQualifiedTypeName name="jdk.jshell.spi.ExecutionControl.RunException"/>
     <fullyQualifiedTypeName name="com.xworkz_exception_custom_unchecked_product_Flipcart.Flipcartproduct"/>
     <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode"/>
@@ -50,14 +39,25 @@
     <fullyQualifiedTypeName name="java.beans.Statement"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.xworkz.cigarette.constants.Dbproperties"/>
+    <fullyQualifiedTypeName name="com.xworkz.dao.BarDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.dao.BarDAOImpl"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.net.URL"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.xworkz.constants.Bartyfe"/>
+    <fullyQualifiedTypeName name="com.xworkz.constants.DBproperties"/>
+    <fullyQualifiedTypeName name="com.xworkz.dto.BarDTO"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.xworkz.constants.DBProperties"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.xworkz.DTO.PoliticianDTO"/>
+    <fullyQualifiedTypeName name="com.xworkz.DAO.PoliticianDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.constants.PartySymbol"/>
+    <fullyQualifiedTypeName name="com.xworkz.constants.PartyName"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 </qualifiedTypeNameHistroy>

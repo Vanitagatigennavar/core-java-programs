@@ -32,5 +32,5 @@ public class BarRunner {
 	bardao.save(bardto2);
 	bardao.save(bardto3);
 	}
-
+   
 }

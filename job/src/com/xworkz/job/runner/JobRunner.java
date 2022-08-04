@@ -12,7 +12,8 @@ public class JobRunner {
 		JobDTO jobdto=new JobDTO(11,Designation.SOFTWAREDEVELOPER,50000.00D,Qualification.BSC,80000D,"yes");
 		JobDAO jobdao=new JobDAOImpl();
 		jobdao.save(jobdto);
-		jobdao.findbyId(1);
+	JobDTO	jobdto1=jobdao.findbyId(1);
+	System.out.println(jobdto1);
 
 	}
 
