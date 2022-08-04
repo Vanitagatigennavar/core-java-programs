@@ -22,5 +22,18 @@ public class KingfisherDelete {
 
 
 	}
+//	public String gettyfe() {
+//		return tyfe;
+//	}
+//	public static Bartyfe getbyvalue(String value) {
+//		Bartyfe[] bartyfe=Bartyfe.values();
+//		for(Bartyfe bartyfe2:bartyfe) {
+//			System.out.println(bartyfe2.tyfe+"comparing");
+//			if(bartyfe2.tyfe.equals(value)) {
+//				return bartyfe2;
+//			}
+//		}
+//		return null;
+//	}
 
 }
