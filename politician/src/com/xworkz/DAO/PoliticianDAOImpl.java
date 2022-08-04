@@ -219,7 +219,7 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 		try (Connection connection=DriverManager.getConnection(URL.getvalue()
 					,USERNAME.getvalue(),SECRET.getvalue());)
 		{
-			String quary="select*from politician.politician_info where id = ?";
+			String quary="select*from politician.politician_info where id =?";
 			PreparedStatement statement=connection.prepareStatement(quary);
 			statement.setInt(1, id);
 			ResultSet rs = statement.executeQuery(quary);
@@ -248,25 +248,7 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 			ResultSet rs=statement.executeQuery();
 			while(rs.next()) {
 				Integer id1=rs.getInt(1);
-				String name2=rs.getString(2);
-				String president=rs.getString(3);
-				double tm=rs.getDouble(4);
-				String ps=rs.getString(5);
-				String pc=rs.getString(6);
-				String pl=rs.getString(7);
-				String ps1=rs.getString(8);
-				double pb=rs.getDouble(9);
-				System.out.println(id1+" "+name2);
-				
-				PoliticianDTO pdto=new PoliticianDTO();
-				pdto.setId(id1);
-			    pdto.setPresident(president);
-				pdto.setTotalMembers(tm);
-				pdto.setPartycolour(pc);
-				pdto.setPartylocation(pl);
-				pdto.setPartystate(ps1);
-				pdto.setPartybudget(pb);
-				return pdto.getPresident();}
+				String Name=rs.getString("Name");}
 		} catch (Exception e) {
            e.printStackTrace();
 		}
@@ -275,13 +257,13 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 
 	@Override
 	public int getTotal() {
-		// TODO Auto-generated method stub
+
 		return 0;
 	}
 
 	@Override
 	public PoliticianDTO findPartyByMaxMembers() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
