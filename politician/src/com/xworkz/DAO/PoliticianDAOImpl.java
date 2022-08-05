@@ -3,12 +3,16 @@ package com.xworkz.DAO;
 import java.net.URL;
 
 
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import com.xworkz.DTO.PoliticianDTO;
 import com.xworkz.constants.PartyName;
@@ -167,7 +171,8 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 				pdto.setPartyName(PartyName.getvalue(partyname1));
 			    pdto.setPresident(president1);
 				pdto.setTotalMembers(tm);
-				pdto.setPartySymbol(PartySymbol.getbyvalue(partysymbol));				pdto.setPartycolour(pc);
+				pdto.setPartySymbol(PartySymbol.getbyvalue(partysymbol));				
+				pdto.setPartycolour(pc);
 				pdto.setPartylocation(pl);
 				pdto.setPartystate(ps1);
 				pdto.setPartybudget(pb);
@@ -230,16 +235,17 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 		try (Connection connection=DriverManager.getConnection(URL.getvalue()
 					,USERNAME.getvalue(),SECRET.getvalue());)
 		{
-			String quary="select*from politician.politician_info where id='?'";
-			PreparedStatement statement=connection.prepareStatement(quary);
-			statement.setInt(1, id);
+			String quary="select Name from politician.politician_info where "+" id ="+id;
+			Statement statement =connection.createStatement();
+//			PreparedStatement statement=connection.prepareStatement(quary);
+//			statement.setInt(1,id);
 			ResultSet rs = statement.executeQuery(quary);
-
+// pending
 			while (rs.next()) {
 				String name=rs.getString(1);
-				System.out.println(id+" ");
-				PoliticianDTO pdto=new PoliticianDTO();
-				pdto.setPartyName(PartyName.getvalue(name));
+//				System.out.println(name);
+//				PoliticianDTO pdto=new PoliticianDTO();
+//				pdto.setPartyName(PartyName.getvalue(name));
 				return name;
 			}
 		
@@ -255,14 +261,17 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 		try {
 			Connection connection=DriverManager.getConnection(URL.getvalue()
 					,USERNAME.getvalue(),SECRET.getvalue());
-			String quary="select*from politician.politician_info where id=? And Name=?";
-			PreparedStatement statement=connection.prepareStatement(quary);
-			statement.setInt(1, id);
-			statement.setString(2, "Name");
-			ResultSet rs=statement.executeQuery();
+			String quary="select President from politician.politician_info where "+" id ="+id +"Name ="+ name;
+			Statement statement =connection.createStatement();
+//			PreparedStatement statement=connection.prepareStatement(quary);
+//			statement.setInt(1, id);
+//			statement.setString(2, "Name");                             PENDING
+			ResultSet rs=statement.executeQuery(quary);
 			while(rs.next()) {
-				Integer id1=rs.getInt(1);
-				String Name=rs.getString("Name");}
+//				Integer id1=rs.getInt(1);
+				String Name=rs.getString(2);
+				return Name;
+				}
 		} catch (Exception e) {
            e.printStackTrace();
 		}
@@ -276,11 +285,14 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 					,USERNAME.getvalue(),SECRET.getvalue());
 			String quary="select*from politician.politician_info";
 			PreparedStatement statement=connection.prepareStatement(quary);
-			statement.setInt(1, 1);
+//			statement.setInt(1, 1);
 			ResultSet rs=statement.executeQuery();
+			AtomicInteger auto=new AtomicInteger();
 			while(rs.next()) {
-				Integer id=rs.getInt(getTotal());
+//				Integer id=rs.getInt(getTotal());
+				auto.incrementAndGet();
 			}
+			System.out.println(auto);
 		
 	} catch (SQLException e) {
 		e.printStackTrace();
@@ -289,20 +301,125 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 	}
 
 	@Override
-	public PoliticianDTO findPartyByMaxMembers() {
+	public PoliticianDTO findPartyByMaxMembers() 
+	{
 		try {
 			Connection connection=DriverManager.getConnection(URL.getvalue()
 					,USERNAME.getvalue(),SECRET.getvalue());
-			String quary="select*from politician.politician_info";
+			String quary="select max(TotalMembers) as maximumnumbers from politician.politician_info";
 			PreparedStatement statement=connection.prepareStatement(quary);
-			statement.setInt(1, 1);
+//			statement.setInt(1, 1);
 			ResultSet rs=statement.executeQuery();
-			
-			
-		} catch (SQLException e) {
+			while (rs.next()) {
+				Integer id1=rs.getInt(1);
+				String name1=rs.getString(1);
+				String president=rs.getString(1);
+				double tm=rs.getDouble(1);
+				String ps=rs.getString(1);
+				String pc=rs.getString(1);
+				String pl=rs.getString(1);
+				String pstate=rs.getString(1);
+				double pb=rs.getDouble(1);
+				System.out.println(id1+" "+name1+" ");
+				
+				PoliticianDTO pdto=new PoliticianDTO();
+				pdto.setId(id1);
+				pdto.setPartyName(PartyName.getvalue(name1));
+			    pdto.setPresident(president);
+				pdto.setTotalMembers(tm);
+				pdto.setPartySymbol(PartySymbol.getbyvalue(ps));	
+				pdto.setPartycolour(pc);
+				pdto.setPartylocation(pl);
+				pdto.setPartystate(pstate);
+				pdto.setPartybudget(pb);
+       			return pdto;
+			    
+			}
+		}
+		catch (SQLException e) 
+		{
 		e.printStackTrace();
 		}
 		return null;
 	}
+	
+	@Override
+
+	     public List<PoliticianDTO>findAll(){
+		try {
+			Connection connection =DriverManager.getConnection(URL.getvalue(),USERNAME.getvalue(),SECRET.getvalue());
+			String sql="select*from politician.politician_info";
+			PreparedStatement statement=connection.prepareStatement(sql);
+			ResultSet rs=statement.executeQuery();
+			List<PoliticianDTO>dtos=new ArrayList<PoliticianDTO>();
+			while(rs.next()) {
+				Integer id1=rs.getInt(1);
+				String name1=rs.getString(2);
+				String president=rs.getString(3);
+				double tm=rs.getDouble(4);
+				String ps=rs.getString(5);
+				String pc=rs.getString(6);
+				String pl=rs.getString(7);
+				String pstate=rs.getString(8);
+				double pb=rs.getDouble(9);
+				System.out.println(id1+" "+name1+" ");
+				
+				PoliticianDTO pdto=new PoliticianDTO();
+				pdto.setId(id1);
+				pdto.setPartyName(PartyName.getvalue(name1));
+			    pdto.setPresident(president);
+				pdto.setTotalMembers(tm);
+				pdto.setPartySymbol(PartySymbol.getbyvalue(ps));	
+				pdto.setPartycolour(pc);
+				pdto.setPartylocation(pl);
+				pdto.setPartystate(pstate);
+				pdto.setPartybudget(pb);
+       			dtos.add(pdto);
+				
+			}
+			System.out.println("Total politician found"+dtos.size());
+			return dtos;
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return PoliticianDAO.super.findAll();
+	}
+	
+	
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

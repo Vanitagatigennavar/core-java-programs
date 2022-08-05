@@ -1,5 +1,7 @@
 package com.xworkz.runner;
 
+import java.util.List;
+
 import com.xworkz.DAO.PoliticianDAO;
 import com.xworkz.DAO.PoliticianDAOImpl;
 import com.xworkz.DTO.PoliticianDTO;
@@ -31,22 +33,32 @@ public class PoliticianRunner {
 //		PoliticianDTO pda2=pdao.findByIdAndPresident(5, "Chandrababu Naydu");
 //		System.out.println(pda2);
 		
-//		PoliticianDTO pda3=pdao.findByIdAndPresidentAndName(6,"B S yadiyurappa","KJP");
-//		System.out.println(pda3);
+        //PoliticianDTO pda3=pdao.findByIdAndPresidentAndName(6,"B S yadiyurappa","KJP");
+		//System.out.println(pda3);
 		
-//		PoliticianDTO pda4=pdao.findByIdAndName(7, "PRKY");
-//		System.out.println(pda4);
+		//PoliticianDTO pda4=pdao.findByIdAndName(7, "PRKY");
+	//System.out.println(pda4);
         
-		String pda5=pdao.findNamebyId(2);
-		System.out.println(pda5);
+//		String pda5=pdao.findNamebyId(2);
+//		System.out.println(pda5);
 		
-//		String pda6 =pdao.findPresidentByIdAndName(3, "JDS");
+//		String pda6 =pdao.findPresidentByIdAndName(2, "BJP");// PENDING//
 //		System.out.println(pda6);
 		
 		
 		
 //		int pda7=pdao.getTotal();
 //		System.out.println(pda7);
+		
+//		PoliticianDTO pda8=pdao.findPartyByMaxMembers();
+//		System.out.println(pda8);
+		
+	
+	List<PoliticianDTO>list=pdao.findAll();
+	for (PoliticianDTO politicianDTO1 : list) {
+		System.out.println(politicianDTO1);
+		
+	}
 		
 		
 }
