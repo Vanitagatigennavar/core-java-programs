@@ -37,11 +37,16 @@ public class PoliticianRunner {
 //		PoliticianDTO pda4=pdao.findByIdAndName(7, "PRKY");
 //		System.out.println(pda4);
         
-//		String pda5=pdao.findNamebyId(1);
-//		System.out.println(pda5);
+		String pda5=pdao.findNamebyId(2);
+		System.out.println(pda5);
 		
-		String pda6 =pdao.findPresidentByIdAndName(3, "JDS");
-		System.out.println(pda6);
+//		String pda6 =pdao.findPresidentByIdAndName(3, "JDS");
+//		System.out.println(pda6);
+		
+		
+		
+//		int pda7=pdao.getTotal();
+//		System.out.println(pda7);
 		
 		
 }
