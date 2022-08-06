@@ -38,13 +38,13 @@ public class PoliticianRunner {
 		//System.out.println(pda3);
 		
 		//PoliticianDTO pda4=pdao.findByIdAndName(7, "PRKY");
-	//System.out.println(pda4);
+	     //System.out.println(pda4);
         
 //		String pda5=pdao.findNamebyId(2);
 //		System.out.println(pda5);
 		
-//		String pda6 =pdao.findPresidentByIdAndName(2, "BJP");// PENDING//
-//		System.out.println(pda6);
+		String pda6 =pdao.findPresidentByIdAndName(2, "BJP");// PENDING//
+		System.out.println(pda6);
 		
 		
 		
@@ -55,8 +55,8 @@ public class PoliticianRunner {
 //		System.out.println(pda8);
 		
 	
-//	List<PoliticianDTO>list=pdao.findAll();
-//	for (PoliticianDTO politicianDTO1 : list) {
+//	    List<PoliticianDTO>list=pdao.findAll();
+//	    for (PoliticianDTO politicianDTO1 : list) {
 //		System.out.println(politicianDTO1);
 		
 //		List<String>list=pdao.findAllPartyName();
@@ -65,15 +65,20 @@ public class PoliticianRunner {
 			
 		
 		
-		List<Integer>list=pdao.findAllIds();
+//		List<Integer>list=pdao.findAllIds();
 //		for (Integer int1 : list) {
 //			System.out.println(int1);
-			for (Iterator iterator = list.iterator(); iterator.hasNext();) {
-				Integer integer = (Integer) iterator.next();
-				System.out.println(integer);
-			}
+//			for (Iterator iterator = list.iterator(); iterator.hasNext();) {
+//				Integer integer = (Integer) iterator.next();
+//				System.out.println(integer);
+//			}
+		List<Object>list=pdao.findAllNoOfMembersAndFundPartyName();
+     	for (Object obj : list) {
+			System.out.println(obj);
+		
 		}
-		}
+	}
+}
 		
 	
 		

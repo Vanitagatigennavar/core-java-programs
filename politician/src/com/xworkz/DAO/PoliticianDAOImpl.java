@@ -458,12 +458,32 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 	}
 	
 	@Override
-	public List<Integer,double1>findAllNoOfMembersAndFundPartyName(){
+	public List<Object>findAllNoOfMembersAndFundPartyName(){
 		try {
-			
-		} catch (Exception e) {
-			e.printStackTrace();
+			Connection connection = DriverManager.getConnection(URL.getvalue(), USERNAME.getvalue(),
+					SECRET.getvalue()); 
+				String sql = "select TotalMembers,PartyBudget,Name from politician.politician_info";
+				PreparedStatement stmt = connection.prepareStatement(sql);
+				ResultSet resultSet = stmt.executeQuery();
+				List<Object> list = new ArrayList<Object>();
+				while(resultSet.next()) {
+					Integer tm = resultSet.getInt(1);
+					Double budget = resultSet.getDouble(2);
+					String name = resultSet.getString(3);
+					list.add(tm);
+					list.add(budget);
+					list.add(name);
+				}
+				System.out.println("The NoOFMembers and TotalBudgetOfParty and PartyName is: " + list.size());
+				return list;
+				
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			return PoliticianDAO.super.findAllNoOfMembersAndFundPartyName();
 		}
+	
+	
 		
 	}
 	
@@ -471,7 +491,7 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 	
 	
 	
-}
+
 
 
 

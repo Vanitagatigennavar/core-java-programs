@@ -42,6 +42,11 @@ public interface PoliticianDAO {
 
       }
 
+     default List<Object>findAllNoOfMembersAndFundPartyName(){
+    	 return Collections.EMPTY_LIST;
+     }
+
+
 }
 
 
