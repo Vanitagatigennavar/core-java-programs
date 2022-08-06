@@ -386,8 +386,91 @@ public class PoliticianDAOImpl implements PoliticianDAO {
 		return PoliticianDAO.super.findAll();
 	}
 	
+	@Override
+	public List<String>findAllPartyName(){
+		try {
+			Connection connection =DriverManager.getConnection(URL.getvalue(),USERNAME.getvalue(),SECRET.getvalue());
+			String sql1="select Name from politician.politician_info";
+			PreparedStatement statement=connection.prepareStatement(sql1);
+			ResultSet rs=statement.executeQuery();
+			List<String>dtos2=new ArrayList<String>();
+			
+			while(rs.next()) {
+//				Integer id1=rs.getInt(1);
+				String name1=rs.getString(1);
+//				String president=rs.getString(3);
+//				double tm=rs.getDouble(4);
+//				String ps=rs.getString(5);
+//				String pc=rs.getString(6);
+//				String pl=rs.getString(7);
+//				String pstate=rs.getString(8);
+//				double pb=rs.getDouble(9);
+//				System.out.println(id1+" "+name1+" ");
+//				
+				PoliticianDTO pdto=new PoliticianDTO();
+//				pdto.setId(id1);
+				pdto.setPartyName(PartyName.getvalue(name1));
+//			    pdto.setPresident(president);
+//				pdto.setTotalMembers(tm);
+//				pdto.setPartySymbol(PartySymbol.getbyvalue(ps));	
+//				pdto.setPartycolour(pc);
+//				pdto.setPartylocation(pl);
+//				pdto.setPartystate(pstate);
+//				pdto.setPartybudget(pb);
+       			dtos2.add(name1);
+				
+			}
+			System.out.println("Total partyname found " + dtos2.size());
+			return dtos2;
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
 	
-
+	
+	@Override
+	public  List<Integer>findAllIds(){
+		try {
+			Connection connection=DriverManager.getConnection(URL.getvalue(),USERNAME.getvalue(),SECRET.getvalue());
+			String sql2="select Id from politician.politician_info";
+			PreparedStatement statement=connection.prepareStatement(sql2);
+			ResultSet rs=statement.executeQuery();
+			List<Integer>dtos2=new ArrayList<Integer>();
+			while(rs.next()) {
+				Integer id=rs.getInt(1);
+				PoliticianDTO pdto=new PoliticianDTO();
+				pdto.getId();
+				dtos2.add(id);
+			}
+			System.out.println("Total id found "+dtos2.size());
+			return dtos2;
+			
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		return null;
+		
+	}
+	
+	@Override
+	public List<Integer,double1>findAllNoOfMembersAndFundPartyName(){
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	
+	
+	
 }
 
 

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz_exception_custom_unchecked_product_Flipcart.Flipcartproduct"/>
-    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode"/>
-    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.commons.TryCatchBlockSorter"/>
     <fullyQualifiedTypeName name="com.sun.tools.javap.TryBlockWriter"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
@@ -21,7 +18,6 @@
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="com.xworkz_collectionTest_vectordemo_daodto_flight_dao.Dao_flightimpl"/>
     <fullyQualifiedTypeName name="java.util.Enumeration"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
     <fullyQualifiedTypeName name="java.util.SortedSet"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
@@ -47,8 +43,6 @@
     <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="com.xworkz.constants.DBProperties"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

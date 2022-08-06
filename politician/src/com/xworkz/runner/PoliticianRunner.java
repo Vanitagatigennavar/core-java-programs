@@ -1,5 +1,6 @@
 package com.xworkz.runner;
 
+import java.util.Iterator;
 import java.util.List;
 
 import com.xworkz.DAO.PoliticianDAO;
@@ -54,12 +55,27 @@ public class PoliticianRunner {
 //		System.out.println(pda8);
 		
 	
-	List<PoliticianDTO>list=pdao.findAll();
-	for (PoliticianDTO politicianDTO1 : list) {
-		System.out.println(politicianDTO1);
+//	List<PoliticianDTO>list=pdao.findAll();
+//	for (PoliticianDTO politicianDTO1 : list) {
+//		System.out.println(politicianDTO1);
 		
-	}
+//		List<String>list=pdao.findAllPartyName();
+//		for (String  pn : list) {
+//			System.out.println(pn);
+			
 		
 		
-}
-}
+		List<Integer>list=pdao.findAllIds();
+//		for (Integer int1 : list) {
+//			System.out.println(int1);
+			for (Iterator iterator = list.iterator(); iterator.hasNext();) {
+				Integer integer = (Integer) iterator.next();
+				System.out.println(integer);
+			}
+		}
+		}
+		
+	
+		
+		
+

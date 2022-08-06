@@ -32,8 +32,18 @@ public interface PoliticianDAO {
 			return Collections.EMPTY_LIST;
 		}
 		
+		default List<String>findAllPartyName(){
+			return Collections.EMPTY_LIST;
+		}
 		
-		
-	}
+      default List<Integer>findAllIds(){
+      return Collections.EMPTY_LIST;
+
+
+      }
+
+}
+
+
 
 
