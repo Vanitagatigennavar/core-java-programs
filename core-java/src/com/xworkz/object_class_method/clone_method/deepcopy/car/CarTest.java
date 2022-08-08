@@ -9,7 +9,7 @@ public class CarTest {
     System.out.println(ferari);
     System.out.println(copyofferari);
     
-    copyofferari.brand="bosh";
+    copyofferari="bosh";
 	}
 
 }

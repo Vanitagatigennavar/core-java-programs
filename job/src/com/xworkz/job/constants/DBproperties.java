@@ -1,7 +1,7 @@
 package com.xworkz.job.constants;
 
 public enum DBproperties {
-	URL("jdbc:mysql://Localhost:3306/"),
+	URL("jdbc:mysql://Localhost:3306/Job"),
     USERNAME("root"),
     SECRET("@Vanita123");
 

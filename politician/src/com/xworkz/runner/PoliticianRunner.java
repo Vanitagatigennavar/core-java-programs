@@ -43,8 +43,8 @@ public class PoliticianRunner {
 //		String pda5=pdao.findNamebyId(2);
 //		System.out.println(pda5);
 		
-		String pda6 =pdao.findPresidentByIdAndName(2, "BJP");// PENDING//
-		System.out.println(pda6);
+//		String pda6 =pdao.findPresidentByIdAndName(2, "BJP");// PENDING//
+//		System.out.println(pda6);
 		
 		
 		

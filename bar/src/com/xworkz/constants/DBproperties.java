@@ -1,15 +1,20 @@
 package com.xworkz.constants;
 
 public enum DBproperties {
-	URL("jdbc:mysql://Localhost:3306/bar"),
-    USERNAME("root"),
-    SECRET("@Vanita123");
-
-  private String Value;
-   DBproperties(String value){ 
-   	this.Value=value;
-   	}
-   public String getvalue(){
-   	return "Value";
-   }	
+	
+	 URL("jdbc:mysql://Localhost:3306/politician"),
+		USERNAME("root"),
+		SECRET("@Vanita123");
+		
+		private String value;
+		  private DBproperties(String value) {
+			  this.value=value;
+		  }
+		  
+		  public String getvalue() {
+			  return value;
+		  }
+	
 }
+     
+

@@ -16,7 +16,7 @@ public class Fusiontest {
    	System.out.println("pen :"+f.getColour());
    	System.out.println("pen :"+f.getModel());
    	System.out.println("pen :"+f.price);
-   	System.out.println("pen :"+f.numberofpens);s
+   	System.out.println("pen :"+f.numberofpens);
     
 	}
 
