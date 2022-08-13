@@ -1,47 +1,47 @@
-package com.xworkz.resort.entity;
+package com.xworkz.bottleentity;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+ @Getter
+@Setter
+@ToString
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name= "newresort_info")
-@ToString
-@Setter
-@Getter
-public class ResortEntity
-{
+@Table(name="new_table")
+ 
+
+public class BottleEntity {
 	@Id
 	@Column(name="id")
 	private int id;
 	@Column(name="name")
 	private String name;
+	@Column(name="companyName")
+	private String companyName;
 	@Column(name="location")
 	private String location;
-	@Column(name="checkInTime")
-	private LocalTime checkInTime;
-	@Column(name="checkOutTime")
-	private LocalTime checkOutTime;
-	@Column(name="createdBy")
-	private String createdBy;
-	@Column(name="createDate")
-	private LocalDate createDate;
-	@Column(name="updateDate")
-	private LocalDate updateDate;
-	@Column(name="owner")
-	private String owner;
+	@Column(name="boughtPerson")
+	private String boughtPerson;
+	@Column(name="manunufactureDate")
+	private LocalDate manunufactureDate;
+	@Column(name="expiryDate")
+	private LocalDate expiryDate;
+	@Column(name="manunufactureTime")
+	private LocalTime manunufactureTime;
+	@Column(name="expiryTime")
+	private LocalTime expiryTime;
 	@Column(name="price")
-	private double  price;
-	
-	
-
+	private Double price;
 }

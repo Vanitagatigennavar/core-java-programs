@@ -22,6 +22,8 @@
 		<item key="create_unimplemented" value="false"/>
 	</section>
 	<section name="completion_proposal_size">
+		<item key="size.x" value="526"/>
+		<item key="size.y" value="1037"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
@@ -150,7 +152,7 @@
 		</list>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="3"/>
+		<item key="pageIndex" value="0"/>
 	</section>
 	<section name="RefactoringWizard.preview">
 		<item key="width" value="630"/>

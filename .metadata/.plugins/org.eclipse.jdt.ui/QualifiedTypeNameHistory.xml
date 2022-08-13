@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz_collectionTest_arraylist_dao_dto.Dto"/>
-    <fullyQualifiedTypeName name="com.xworkz_collectionTest_arraylist_dao_dto.DaoBookimpl"/>
-    <fullyQualifiedTypeName name="com.xworkz_collectionTest_arraylist_dao_dto.DtoBook"/>
-    <fullyQualifiedTypeName name="com.xworkz_collectionTest_arraylist_dao_dto.Dao_book"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
-    <fullyQualifiedTypeName name="com.xworkz_collectionTest_vectordemo_daodto_flight_dao.Dao_flight"/>
-    <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="com.xworkz_collectionTest_vectordemo_daodto_flight_dao.Dao_flightimpl"/>
-    <fullyQualifiedTypeName name="java.util.Enumeration"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
-    <fullyQualifiedTypeName name="java.util.SortedSet"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="com.xworkz_collectionTest_vectordemo_daodto_flight.Dto_flight"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
@@ -28,10 +15,6 @@
     <fullyQualifiedTypeName name="com.xworkz.dao.BarDAOImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.constants.Bartyfe"/>
     <fullyQualifiedTypeName name="com.xworkz.dto.BarDTO"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="com.xworkz.constants.DBProperties"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.xworkz.DTO.PoliticianDTO"/>
@@ -52,12 +35,29 @@
     <fullyQualifiedTypeName name="com.xworkz.constants.DBproperties"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="com.xworkz_dao_dto_test_Dao_employee.xworkz_dao_dto_test.DTO_employee"/>
-    <fullyQualifiedTypeName name="java.time.LocalTime"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
+    <fullyQualifiedTypeName name="com.xworkz.mobileDAO.MobileDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="com.xworkz.resort.entity.ResortEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.resort.dao.ResortDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.resort.dao.ResortDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.mobileEntity.MobileEntity"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="com.xworkz.bottleentity.BottleEntity"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.xworkz.bottleDAO.BottleDAO"/>
 </qualifiedTypeNameHistroy>
