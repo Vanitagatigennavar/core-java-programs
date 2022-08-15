@@ -58,26 +58,28 @@ public class MobileDAOImpl implements MobileDAO{
 	}
 
 	@Override
-	public boolean deleteById(int pm) {
-		
-		EntityManager manager=null;
-		
+	public void updateownerAndlocation(String personName, String newlocation, int id) {
+		EntityManager entityManager = this.factory.createEntityManager();
 		try {
-			manager=factory.createEntityManager();
-			EntityTransaction tx=manager.getTransaction();
-			   tx.begin();
-			   manager.find(MobileEntity.class,pm);
-			   manager.remove(manager);
-			   tx.commit();
-			   
-			   } catch (Exception e) {
-			e.printStackTrace();
+			EntityTransaction tx = entityManager.getTransaction();
+			tx.begin();
+			MobileEntity entity = entityManager.find(MobileEntity.class, id);
+			if (entity != null) {
+				System.out.println("entity found for id" + id + " can update");
+				entity.setPersonName(personName);
+				entity.setLocation(newlocation);
+				entityManager.merge(entity);// update sql
+			}
+			tx.commit();
+		} catch (Exception e) {
+			// TODO: handle exception
+		} finally {
+			entityManager.close();
 		}
-		finally {
-			manager.close();
-	
-		}
-		return true;
+
 	}
 
-}
+
+		
+	}
+

@@ -46,7 +46,7 @@ public class ResortRunner {
 //	entity3.setPrice(6000D);
 	
 //	ResortEntity entity4=new ResortEntity(4,"sai","Hubli",LocalTime.of(3, 0),LocalTime.of(7, 0),"Priya",LocalDate.now(),LocalDate.of(2022,5,6),"Akshara",70000D);
-  ResortEntity entity5=new ResortEntity(5,"FortunePark","Vijaypur",LocalTime.of(6, 0),LocalTime.of(8, 0),"Raji",LocalDate.now(),LocalDate.of(2022,1,2),"Shravani",25000D);
+  ResortEntity entity6=new ResortEntity(0,"kabbanpark","sakaleshpur",LocalTime.of(6, 0),LocalTime.of(8, 0),"pooja",LocalDate.now(),LocalDate.of(2022,1,2),"Shravani",25000D);
   
 	
 	ResortDAO dao=new ResortDAOImpl();
@@ -54,8 +54,8 @@ public class ResortRunner {
 //	Boolean save1=dao.save(entity1);
 //	Boolean save3=dao.save(entity3);
 //	Boolean save4=dao.save(entity4);
-	Boolean save5=dao.save(entity5);
-	System.out.println("saved:"+entity5);
+	Boolean save5=dao.save(entity6);
+	System.out.println("saved:"+entity6);
 
 	}
 

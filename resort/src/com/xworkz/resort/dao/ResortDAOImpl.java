@@ -1,17 +1,15 @@
 package com.xworkz.resort.dao;
-
-import javax.persistence.Entity;
 import javax.persistence.EntityManager;
+
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
 import javax.persistence.PersistenceException;
-import javax.transaction.Transaction;
-
+import static com.xworkz.resort.util.ResortUtil.*;
 import com.xworkz.resort.entity.ResortEntity;
 
 public class ResortDAOImpl implements ResortDAO {
-	EntityManagerFactory factory=Persistence.createEntityManagerFactory("com.xworkz");
+//	EntityManagerFactory factory=Persistence.createEntityManagerFactory("com.xworkz");
+	private  EntityManagerFactory factory = getFactory();
 	@Override
 	public boolean save(ResortEntity entity) {
 		try {
@@ -68,72 +66,25 @@ public class ResortDAOImpl implements ResortDAO {
 	public void updateownerAndlocation(String newowner, String newlocation, int id) {
 		
 		
-		EntityManager manager=null;
+		EntityManager entityManager = this.factory.createEntityManager();
 		try {
-			manager=factory.createEntityManager();
-			EntityTransaction tx=manager.getTransaction();
+			EntityTransaction tx = entityManager.getTransaction();
 			tx.begin();
-      
-//			tx.commit();
-//			manager.persist(tx);
-			ResortEntity entity=manager.find(ResortEntity.class,id);
-			entity.setName("rajani");
-			entity.setLocation("kanakpur");
+			ResortEntity entity = entityManager.find(ResortEntity.class, id);
+			if (entity != null) {
+				System.out.println("entity found for id" + id + " can update");
+				entity.setOwner(newowner);
+				entity.setLocation(newlocation);
+				entityManager.merge(entity);// update sql
+			}
 			tx.commit();
-			if(entity!=null)
-			{
-				System.out.println("data found by id:"+entity);
-			}
-			else
-			{
-				System.out.println("data not found");
-			}
-			
-			
 		} catch (Exception e) {
-			e.printStackTrace();
+			// TODO: handle exception
+		} finally {
+			entityManager.close();
 		}
-		finally {
-			
-			manager.close();
-			
-		}
-		
-	}
 
-	@Override
-	public boolean deleteById(int id) {
-       EntityManager manager=null;
-		try {
-			manager=factory.createEntityManager();
-			EntityTransaction tx=manager.getTransaction();
-			   tx.begin();
-			   manager.find(ResortEntity.class,id);
-			   manager.remove(manager);
-			   tx.commit();
-			} catch (Exception e) {
-		
-		}
-		finally {
-			manager.close();
-		}
-		return true;
-	
 	}
-	}
-//	   EntityManagerFactory factory=Persistence.createEntityManagerFactory("com.xworkz");
-//	   EntityManager manager=factory.createEntityManager();
-//	   EntityTransaction tx=manager.getTransaction();
-//	   tx.begin();
-//	   manager.persist(entity);
-//	   
-//	   tx.commit();
-//	   factory.close();
-//	   manager.close();
-//	   
-//		return true;
-//	}
-//
-//	
-//}
+}
+
 

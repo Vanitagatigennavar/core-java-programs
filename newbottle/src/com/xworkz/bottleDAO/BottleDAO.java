@@ -10,7 +10,7 @@ public interface BottleDAO {
 	
 	void updateboughtPersonAndlocation(String newboughtperson ,String newlocation,int id);
 	
-	public boolean deleteById(int id);	
+	
 	
 }
 

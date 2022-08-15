@@ -10,6 +10,6 @@ public interface ResortDAO {
 	
 	void updateownerAndlocation(String newowner,String newlocation,int id);
 	
-	public boolean deleteById(int id);	
+		
 	
 }

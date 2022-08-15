@@ -8,6 +8,6 @@ public interface MobileDAO {
 
 	MobileEntity findbyid(int id);
 	
-	public boolean deleteById(int id);
+	void updateownerAndlocation(String personName,String newlocation,int id);
 
 }

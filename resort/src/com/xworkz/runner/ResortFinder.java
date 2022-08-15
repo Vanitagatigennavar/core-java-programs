@@ -8,16 +8,14 @@ public class ResortFinder {
    
 	public static void main(String[] args) {
 	
-//       ResortEntity resortentity=new ResortEntity();
+
        ResortDAO dao=new ResortDAOImpl();
-//       ResortEntity entity1=dao.findbyId(1);
-//       System.out.println(entity1);
+//      ResortEntity entity1=dao.findbyId(1);
+//      System.out.println(entity1);
 //       ResortEntity entity2=dao.findbyId(4);
 //         System.out.println(entity2);
-//          dao.updateownerAndlocation("rajani", "kanakpur",2);
+          dao.updateownerAndlocation("aditi", "kanakpur",3);
      
-       boolean entity=dao.deleteById(4);
-       System.out.println(entity);
       
       
       

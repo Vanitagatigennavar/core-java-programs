@@ -32,8 +32,8 @@ public class MobileRunner {
 //		MobileEntity entity=dao.findbyid(4);
 //		System.out.println(entity);
 		
-		boolean entity=dao.deleteById(2);
-		System.out.println(entity);
+		dao.updateownerAndlocation("shree", "kodachadri", 5);
+		
 
 	}
 
