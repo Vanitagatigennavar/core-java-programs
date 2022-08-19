@@ -17,7 +17,7 @@ public class ParentEntity {
 	
 	
 	private  LocalDateTime createdDate;
-	private LocalDateTime updatedDate;
+	private LocalDateTime updateDate;
 	private String createdBy;
 	private String updatedBy;
 
