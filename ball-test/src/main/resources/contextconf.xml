@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean class="Ball.java">
+		<constructor-arg name="shape" value="circle">
+		</constructor-arg>
+		<constructor-arg name="isAirFilled" value="false">
+		</constructor-arg>
+		
+	</bean>
+	<bean class="java.lang.Integer">
+		<constructor-arg name="value" value="200">
+		</constructor-arg>
+	</bean>
+	<bean class="java.lang.Double">
+		<constructor-arg name="value" value="20.00">
+		</constructor-arg>
+	</bean>
+	<bean class="java.lang.Boolean">
+		<constructor-arg name="value" value="false">
+		</constructor-arg>
+	</bean>
+	<bean class="java.lang.Float">
+		<constructor-arg name="value" value="8.00">
+		</constructor-arg>
+	</bean>
+	
+	<bean class="java.lang.Character">
+		<constructor-arg name="value" value="S">
+		</constructor-arg>
+	</bean>
+	<bean class="java.lang.String">
+		<constructor-arg name="value" value="Dharwad">
+		</constructor-arg>
+	</bean>
+	<bean class="java.lang.Short">
+		<constructor-arg name="value" value="20">
+		</constructor-arg>
+	</bean>
+	

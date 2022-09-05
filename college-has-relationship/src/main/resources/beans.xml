@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="mathsc" class="com.xworkz.college.MathCheat"></bean>
+        <bean id="sciencec" class="com.xworkz.college.ScienceCheat"></bean>
+        <bean id="javac" class="com.xworkz.college.JavaCheat"></bean>
+        
+        <bean id="stu" class="com.xworkz.college.Student">
+        <property name="cheat" ref="javac"></property>
+       </bean>
+       
+                <bean id="stu1" class="com.xworkz.college.Student">
+                <property name="cheat" ref="mathsc"></property>
+                </bean>
+                
+              
+                <bean id="stu2" class="com.xworkz.college.Student">
+                <property name="cheat" ref="sciencec"></property>
+                </bean>
+        
+        </beans>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="MC" class="com.xworkz.MissedCallAlert"></bean>
+        <bean id="HT" class="com.xworkz.HelloTune"></bean>
+        <bean id="DP" class="com.xworkz.DataPack"></bean>
+        
+        <bean id="user1" class="com.xworkz.Airtel">
+        <property name="service" ref="MC"/>
+        </bean>
+        
+        <bean id="user2" class="com.xworkz.Airtel">
+        <property name="service" ref="HT"/>
+        </bean>
+        
+        <bean id="user3" class="com.xworkz.Airtel">
+        <property name="service" ref="DP"/>
+        </bean>
+        
+        </beans>

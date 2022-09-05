@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.mobileEntity.MobileEntity"/>
-    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
-    <fullyQualifiedTypeName name="com.xworkz.bottleentity.BottleEntity"/>
-    <fullyQualifiedTypeName name="com.xworkz.bottleDAO.BottleDAO"/>
-    <fullyQualifiedTypeName name="com.xworkz.computer.dto.ComputerEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.wallclock.entity.WallClockEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.wallclock.dao.WallClockDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.wallclock.dao.WallClockDAOImpl"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="com.xworkz.combs.service.CombService"/>
     <fullyQualifiedTypeName name="com.xworkz.combs.service.CombServiceImpl"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.xworkz.college.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 </qualifiedTypeNameHistroy>
