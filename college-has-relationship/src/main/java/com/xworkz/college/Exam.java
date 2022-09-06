@@ -8,6 +8,7 @@ public class Exam  {
 	public static void main(String[] args) {
 
 	ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+	System.out.println("bean class loaded");
     
 	Student student = context.getBean("stu", Student.class);
 	student.cheating();

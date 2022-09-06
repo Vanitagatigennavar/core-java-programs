@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.wallclock.entity.WallClockEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.wallclock.dao.WallClockDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.wallclock.dao.WallClockDAOImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.computer.dao.ComputerDAO"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="com.xworkz.college.Student"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.xworkz.tv.TvStand"/>
 </qualifiedTypeNameHistroy>

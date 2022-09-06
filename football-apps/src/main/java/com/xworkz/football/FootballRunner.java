@@ -5,6 +5,7 @@ public class FootballRunner {
 public static void main(String[] args) {
 	//step a container or start the Applicationcontext	
     ApplicationContext context = new ClassPathXmlApplicationContext("contextconf.xml");
+    System.out.println("bean is created");
     Football demo=context.getBean(Football.class);
     Byte byte1 = context.getBean(Byte.class);
 	System.out.println("size of the byte in terms of bit : " + byte1);

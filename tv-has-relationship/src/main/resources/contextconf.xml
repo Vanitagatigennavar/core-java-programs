@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="tv" class="com.xworkz.tv.Tv">
+        <property name="name" value="vanita"></property>
+        <property name="color" value="blue"/>
+        <property name="price" value="30000D"></property>
+        <property name="display" ref="display"></property>
+        <property name="remote" ref="remote"></property>
+        <property name="setUpbox" ref="setupbox"></property>
+        <property name="stand" ref="stand"></property>
+        </bean>
+        
+        <bean id="display" class="com.xworkz.tv.TvDisplay">
+        <property name="type" value="LED"></property>
+        <property name="madeIn" value="India"></property>
+        </bean>
+        
+        <bean id="remote" class="com.xworkz.tv.TvRemote">
+        <property name="type" value="withShell"/>
+        <property name="noOfButtons" value="15"/>
+        </bean>
+        
+        <bean id="setupbox" class="com.xworkz.tv.TvSetupBox">
+        <property name="brand" value="samsung"></property>
+        <property name="price" value="5000D"></property>
+        </bean>
+        
+        <bean id="stand" class="com.xworkz.tv.TvStand">
+        <property name="color" value="pink"></property>
+        <property name="noOfLegs" value="1"></property>
+        </bean>
+       
+        </beans>
