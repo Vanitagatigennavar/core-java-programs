@@ -8,9 +8,11 @@
 		<list key="orderedElements">
 			<item value="org.eclipse.jdt.ui.PackageExplorer"/>
 			<item value="org.eclipse.ui.views.ResourceNavigator"/>
+			<item value="org.eclipse.wst.server.ui.ServersView"/>
 			<item value="org.eclipse.ui.console.ConsoleView"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
@@ -19,12 +21,14 @@
 			<item value="2"/>
 			<item value="2"/>
 			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="textArray">
 			<item value="p"/>
 			<item value="package"/>
 			<item value="na"/>
 			<item value="navi"/>
+			<item value="se"/>
 			<item value="co"/>
 		</list>
 	</section>
@@ -37,13 +41,16 @@
 		</list>
 	</section>
 	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.fatjarpackager.JarPackageWizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
-			<item value="org.eclipse.jst.ejb.ui"/>
-			<item value="org.eclipse.jdt.ui.Java"/>
-			<item value="org.eclipse.jst.j2ee.internal"/>
-			<item value="org.eclipse.debug.ui"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="F:\amititest.zip"/>
 		</list>
 	</section>
 </section>
